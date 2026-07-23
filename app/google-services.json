@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "28420093444",
+    "project_id": "ai-based-pulp-capping",
+    "storage_bucket": "ai-based-pulp-capping.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28420093444:android:57d30eda3bd1e197fda751",
+        "android_client_info": {
+          "package_name": "com.saveetha.aipulpcapping"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4I1A9GGlhRi7A_EqryfNXCafWmtTrTEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
