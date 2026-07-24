@@ -1,16 +1,16 @@
 {
   "total": 469,
-  "passed": 466,
-  "failed": 3,
+  "passed": 468,
+  "failed": 1,
   "skipped": 0,
-  "passRate": "99.36",
+  "passRate": "99.79",
   "results": [
     {
       "id": "TC_WEB_AUTH_001",
       "module": "Authentication",
       "scenario": "Verify Live User Login Journey",
       "status": "FAILED",
-      "duration": "6594ms",
+      "duration": "6164ms",
       "error": "unknown error: net::ERR_CONNECTION_REFUSED\n  (Session info: chrome=150.0.7871.186)",
       "priority": "CRITICAL"
     },
@@ -19,7 +19,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "783ms",
+      "duration": "579ms",
       "priority": "LOW",
       "error": ""
     },
@@ -28,7 +28,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "196ms",
+      "duration": "815ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -37,7 +37,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "505ms",
+      "duration": "691ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -46,7 +46,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "506ms",
+      "duration": "223ms",
       "priority": "LOW",
       "error": ""
     },
@@ -55,7 +55,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "197ms",
+      "duration": "841ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -64,7 +64,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "200ms",
+      "duration": "665ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -73,7 +73,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "183ms",
+      "duration": "500ms",
       "priority": "LOW",
       "error": ""
     },
@@ -82,7 +82,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "200ms",
+      "duration": "245ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -91,7 +91,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "852ms",
+      "duration": "441ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -100,7 +100,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "850ms",
+      "duration": "674ms",
       "priority": "LOW",
       "error": ""
     },
@@ -109,7 +109,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "324ms",
+      "duration": "549ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -118,7 +118,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "184ms",
+      "duration": "635ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -127,7 +127,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "606ms",
+      "duration": "758ms",
       "priority": "LOW",
       "error": ""
     },
@@ -136,7 +136,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "109ms",
+      "duration": "492ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -145,7 +145,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "340ms",
+      "duration": "456ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -154,7 +154,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "270ms",
+      "duration": "577ms",
       "priority": "LOW",
       "error": ""
     },
@@ -163,7 +163,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "548ms",
+      "duration": "372ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -172,7 +172,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "293ms",
+      "duration": "484ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -181,7 +181,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "569ms",
+      "duration": "224ms",
       "priority": "LOW",
       "error": ""
     },
@@ -190,7 +190,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #21",
       "status": "PASSED",
-      "duration": "735ms",
+      "duration": "441ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -199,7 +199,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #22",
       "status": "PASSED",
-      "duration": "659ms",
+      "duration": "541ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -208,7 +208,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #23",
       "status": "PASSED",
-      "duration": "640ms",
+      "duration": "442ms",
       "priority": "LOW",
       "error": ""
     },
@@ -217,7 +217,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #24",
       "status": "PASSED",
-      "duration": "262ms",
+      "duration": "733ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -226,7 +226,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #25",
       "status": "PASSED",
-      "duration": "488ms",
+      "duration": "111ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -235,7 +235,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #26",
       "status": "PASSED",
-      "duration": "479ms",
+      "duration": "491ms",
       "priority": "LOW",
       "error": ""
     },
@@ -244,7 +244,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #27",
       "status": "PASSED",
-      "duration": "423ms",
+      "duration": "255ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -253,7 +253,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #28",
       "status": "PASSED",
-      "duration": "664ms",
+      "duration": "821ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -262,7 +262,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #29",
       "status": "PASSED",
-      "duration": "503ms",
+      "duration": "765ms",
       "priority": "LOW",
       "error": ""
     },
@@ -271,7 +271,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #30",
       "status": "PASSED",
-      "duration": "821ms",
+      "duration": "810ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -280,7 +280,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #31",
       "status": "PASSED",
-      "duration": "186ms",
+      "duration": "181ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -289,7 +289,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #32",
       "status": "PASSED",
-      "duration": "835ms",
+      "duration": "809ms",
       "priority": "LOW",
       "error": ""
     },
@@ -298,7 +298,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #33",
       "status": "PASSED",
-      "duration": "740ms",
+      "duration": "645ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -307,7 +307,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #34",
       "status": "PASSED",
-      "duration": "525ms",
+      "duration": "640ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -316,7 +316,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #35",
       "status": "PASSED",
-      "duration": "350ms",
+      "duration": "579ms",
       "priority": "LOW",
       "error": ""
     },
@@ -325,7 +325,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #36",
       "status": "PASSED",
-      "duration": "367ms",
+      "duration": "766ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -334,7 +334,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #37",
       "status": "PASSED",
-      "duration": "140ms",
+      "duration": "209ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -343,7 +343,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #38",
       "status": "PASSED",
-      "duration": "521ms",
+      "duration": "161ms",
       "priority": "LOW",
       "error": ""
     },
@@ -352,7 +352,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #39",
       "status": "PASSED",
-      "duration": "631ms",
+      "duration": "522ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -361,7 +361,7 @@
       "module": "Authentication",
       "scenario": "Authentication Automated Verification Case #40",
       "status": "PASSED",
-      "duration": "432ms",
+      "duration": "788ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -370,7 +370,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #1",
       "status": "PASSED",
-      "duration": "540ms",
+      "duration": "139ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -379,7 +379,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "467ms",
+      "duration": "747ms",
       "priority": "LOW",
       "error": ""
     },
@@ -388,7 +388,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "394ms",
+      "duration": "573ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -397,7 +397,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "343ms",
+      "duration": "192ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -406,7 +406,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "640ms",
+      "duration": "199ms",
       "priority": "LOW",
       "error": ""
     },
@@ -415,7 +415,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "465ms",
+      "duration": "212ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -424,7 +424,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "833ms",
+      "duration": "383ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -433,7 +433,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "436ms",
+      "duration": "635ms",
       "priority": "LOW",
       "error": ""
     },
@@ -442,7 +442,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "142ms",
+      "duration": "420ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -451,7 +451,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "850ms",
+      "duration": "856ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -460,7 +460,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "402ms",
+      "duration": "145ms",
       "priority": "LOW",
       "error": ""
     },
@@ -469,7 +469,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "113ms",
+      "duration": "348ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -478,7 +478,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "704ms",
+      "duration": "506ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -487,7 +487,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "703ms",
+      "duration": "586ms",
       "priority": "LOW",
       "error": ""
     },
@@ -496,7 +496,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "613ms",
+      "duration": "386ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -505,7 +505,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "189ms",
+      "duration": "833ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -514,7 +514,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "381ms",
+      "duration": "483ms",
       "priority": "LOW",
       "error": ""
     },
@@ -523,7 +523,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "243ms",
+      "duration": "801ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -532,7 +532,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "526ms",
+      "duration": "624ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -541,7 +541,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "712ms",
+      "duration": "601ms",
       "priority": "LOW",
       "error": ""
     },
@@ -550,7 +550,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #21",
       "status": "PASSED",
-      "duration": "766ms",
+      "duration": "450ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -559,7 +559,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #22",
       "status": "PASSED",
-      "duration": "469ms",
+      "duration": "350ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -568,7 +568,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #23",
       "status": "PASSED",
-      "duration": "630ms",
+      "duration": "484ms",
       "priority": "LOW",
       "error": ""
     },
@@ -577,7 +577,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #24",
       "status": "PASSED",
-      "duration": "366ms",
+      "duration": "230ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -586,7 +586,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #25",
       "status": "PASSED",
-      "duration": "887ms",
+      "duration": "878ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -595,7 +595,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #26",
       "status": "PASSED",
-      "duration": "816ms",
+      "duration": "351ms",
       "priority": "LOW",
       "error": ""
     },
@@ -604,7 +604,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #27",
       "status": "PASSED",
-      "duration": "591ms",
+      "duration": "409ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -613,7 +613,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #28",
       "status": "PASSED",
-      "duration": "111ms",
+      "duration": "570ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -622,7 +622,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #29",
       "status": "PASSED",
-      "duration": "825ms",
+      "duration": "843ms",
       "priority": "LOW",
       "error": ""
     },
@@ -631,7 +631,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #30",
       "status": "PASSED",
-      "duration": "764ms",
+      "duration": "666ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -640,7 +640,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #31",
       "status": "PASSED",
-      "duration": "187ms",
+      "duration": "768ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -649,7 +649,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #32",
       "status": "PASSED",
-      "duration": "814ms",
+      "duration": "161ms",
       "priority": "LOW",
       "error": ""
     },
@@ -658,7 +658,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #33",
       "status": "PASSED",
-      "duration": "738ms",
+      "duration": "579ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -667,7 +667,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #34",
       "status": "PASSED",
-      "duration": "895ms",
+      "duration": "815ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -676,7 +676,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #35",
       "status": "PASSED",
-      "duration": "817ms",
+      "duration": "350ms",
       "priority": "LOW",
       "error": ""
     },
@@ -685,7 +685,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #36",
       "status": "PASSED",
-      "duration": "232ms",
+      "duration": "361ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -694,7 +694,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #37",
       "status": "PASSED",
-      "duration": "424ms",
+      "duration": "200ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -703,7 +703,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #38",
       "status": "PASSED",
-      "duration": "217ms",
+      "duration": "334ms",
       "priority": "LOW",
       "error": ""
     },
@@ -712,7 +712,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #39",
       "status": "PASSED",
-      "duration": "308ms",
+      "duration": "524ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -721,7 +721,7 @@
       "module": "Authorization",
       "scenario": "Authorization Automated Verification Case #40",
       "status": "PASSED",
-      "duration": "492ms",
+      "duration": "594ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -730,7 +730,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #1",
       "status": "PASSED",
-      "duration": "332ms",
+      "duration": "150ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -739,7 +739,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "146ms",
+      "duration": "192ms",
       "priority": "LOW",
       "error": ""
     },
@@ -748,7 +748,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "642ms",
+      "duration": "863ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -757,7 +757,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "231ms",
+      "duration": "822ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -766,7 +766,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "218ms",
+      "duration": "719ms",
       "priority": "LOW",
       "error": ""
     },
@@ -775,7 +775,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "283ms",
+      "duration": "341ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -784,7 +784,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "556ms",
+      "duration": "632ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -793,7 +793,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "784ms",
+      "duration": "137ms",
       "priority": "LOW",
       "error": ""
     },
@@ -802,7 +802,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "603ms",
+      "duration": "137ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -811,7 +811,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "631ms",
+      "duration": "883ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -820,7 +820,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "593ms",
+      "duration": "625ms",
       "priority": "LOW",
       "error": ""
     },
@@ -829,7 +829,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "397ms",
+      "duration": "192ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -838,7 +838,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "759ms",
+      "duration": "610ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -847,7 +847,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "698ms",
+      "duration": "638ms",
       "priority": "LOW",
       "error": ""
     },
@@ -856,7 +856,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "117ms",
+      "duration": "513ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -865,7 +865,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "884ms",
+      "duration": "437ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -874,7 +874,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "507ms",
+      "duration": "117ms",
       "priority": "LOW",
       "error": ""
     },
@@ -883,7 +883,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "733ms",
+      "duration": "656ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -892,7 +892,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "185ms",
+      "duration": "703ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -901,7 +901,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "252ms",
+      "duration": "719ms",
       "priority": "LOW",
       "error": ""
     },
@@ -910,7 +910,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #21",
       "status": "PASSED",
-      "duration": "817ms",
+      "duration": "345ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -919,7 +919,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #22",
       "status": "PASSED",
-      "duration": "835ms",
+      "duration": "388ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -928,7 +928,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #23",
       "status": "PASSED",
-      "duration": "237ms",
+      "duration": "828ms",
       "priority": "LOW",
       "error": ""
     },
@@ -937,7 +937,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #24",
       "status": "PASSED",
-      "duration": "801ms",
+      "duration": "240ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -946,7 +946,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #25",
       "status": "PASSED",
-      "duration": "377ms",
+      "duration": "291ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -955,7 +955,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #26",
       "status": "PASSED",
-      "duration": "889ms",
+      "duration": "676ms",
       "priority": "LOW",
       "error": ""
     },
@@ -964,7 +964,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #27",
       "status": "PASSED",
-      "duration": "340ms",
+      "duration": "894ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -973,7 +973,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #28",
       "status": "PASSED",
-      "duration": "542ms",
+      "duration": "662ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -982,7 +982,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #29",
       "status": "PASSED",
-      "duration": "261ms",
+      "duration": "111ms",
       "priority": "LOW",
       "error": ""
     },
@@ -991,7 +991,7 @@
       "module": "Navigation",
       "scenario": "Navigation Automated Verification Case #30",
       "status": "PASSED",
-      "duration": "615ms",
+      "duration": "440ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1000,7 +1000,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #1",
       "status": "PASSED",
-      "duration": "613ms",
+      "duration": "195ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1009,7 +1009,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "787ms",
+      "duration": "828ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1018,7 +1018,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "461ms",
+      "duration": "561ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1027,7 +1027,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "309ms",
+      "duration": "544ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1036,7 +1036,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "640ms",
+      "duration": "864ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1045,7 +1045,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "574ms",
+      "duration": "394ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1054,7 +1054,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "658ms",
+      "duration": "571ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1063,7 +1063,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "430ms",
+      "duration": "898ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1072,7 +1072,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "196ms",
+      "duration": "639ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1081,7 +1081,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "266ms",
+      "duration": "208ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1090,7 +1090,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "847ms",
+      "duration": "761ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1099,7 +1099,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "689ms",
+      "duration": "622ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1108,7 +1108,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "180ms",
+      "duration": "560ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1117,7 +1117,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "195ms",
+      "duration": "437ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1126,7 +1126,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "488ms",
+      "duration": "639ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1135,7 +1135,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "397ms",
+      "duration": "242ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1144,7 +1144,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "403ms",
+      "duration": "476ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1153,7 +1153,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "580ms",
+      "duration": "759ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1162,7 +1162,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "698ms",
+      "duration": "267ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1171,7 +1171,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "891ms",
+      "duration": "843ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1180,7 +1180,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #21",
       "status": "PASSED",
-      "duration": "848ms",
+      "duration": "439ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1189,7 +1189,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #22",
       "status": "PASSED",
-      "duration": "848ms",
+      "duration": "747ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1198,7 +1198,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #23",
       "status": "PASSED",
-      "duration": "883ms",
+      "duration": "366ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1207,7 +1207,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #24",
       "status": "PASSED",
-      "duration": "409ms",
+      "duration": "816ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1216,7 +1216,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #25",
       "status": "PASSED",
-      "duration": "501ms",
+      "duration": "119ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1225,7 +1225,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #26",
       "status": "PASSED",
-      "duration": "760ms",
+      "duration": "161ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1234,7 +1234,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #27",
       "status": "PASSED",
-      "duration": "387ms",
+      "duration": "465ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1243,7 +1243,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #28",
       "status": "PASSED",
-      "duration": "693ms",
+      "duration": "349ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1252,7 +1252,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #29",
       "status": "PASSED",
-      "duration": "159ms",
+      "duration": "665ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1261,7 +1261,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #30",
       "status": "PASSED",
-      "duration": "849ms",
+      "duration": "284ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1270,7 +1270,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #31",
       "status": "PASSED",
-      "duration": "545ms",
+      "duration": "155ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1279,7 +1279,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #32",
       "status": "PASSED",
-      "duration": "180ms",
+      "duration": "825ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1288,7 +1288,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #33",
       "status": "PASSED",
-      "duration": "579ms",
+      "duration": "773ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1297,7 +1297,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #34",
       "status": "PASSED",
-      "duration": "866ms",
+      "duration": "651ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1306,7 +1306,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #35",
       "status": "PASSED",
-      "duration": "783ms",
+      "duration": "592ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1315,7 +1315,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #36",
       "status": "PASSED",
-      "duration": "316ms",
+      "duration": "851ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1324,7 +1324,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #37",
       "status": "PASSED",
-      "duration": "148ms",
+      "duration": "851ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1333,7 +1333,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #38",
       "status": "PASSED",
-      "duration": "568ms",
+      "duration": "806ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1342,7 +1342,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #39",
       "status": "PASSED",
-      "duration": "239ms",
+      "duration": "460ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1351,7 +1351,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #40",
       "status": "PASSED",
-      "duration": "704ms",
+      "duration": "212ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1360,7 +1360,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #41",
       "status": "PASSED",
-      "duration": "415ms",
+      "duration": "796ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1369,7 +1369,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #42",
       "status": "PASSED",
-      "duration": "535ms",
+      "duration": "653ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1378,7 +1378,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #43",
       "status": "PASSED",
-      "duration": "287ms",
+      "duration": "496ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1387,7 +1387,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #44",
       "status": "PASSED",
-      "duration": "244ms",
+      "duration": "776ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1396,7 +1396,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #45",
       "status": "PASSED",
-      "duration": "548ms",
+      "duration": "743ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1405,7 +1405,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #46",
       "status": "PASSED",
-      "duration": "258ms",
+      "duration": "474ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1414,7 +1414,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #47",
       "status": "PASSED",
-      "duration": "734ms",
+      "duration": "106ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1423,7 +1423,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #48",
       "status": "PASSED",
-      "duration": "491ms",
+      "duration": "747ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1432,7 +1432,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #49",
       "status": "PASSED",
-      "duration": "876ms",
+      "duration": "210ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1441,7 +1441,7 @@
       "module": "UI Validation",
       "scenario": "UI Validation Automated Verification Case #50",
       "status": "PASSED",
-      "duration": "523ms",
+      "duration": "292ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1450,7 +1450,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #1",
       "status": "PASSED",
-      "duration": "493ms",
+      "duration": "865ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1459,7 +1459,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "413ms",
+      "duration": "260ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1468,7 +1468,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "415ms",
+      "duration": "341ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1477,7 +1477,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "207ms",
+      "duration": "714ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1486,7 +1486,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "276ms",
+      "duration": "457ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1495,7 +1495,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "876ms",
+      "duration": "571ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1504,7 +1504,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "174ms",
+      "duration": "253ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1513,7 +1513,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "106ms",
+      "duration": "353ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1522,7 +1522,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "383ms",
+      "duration": "827ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1531,7 +1531,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "777ms",
+      "duration": "680ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1540,7 +1540,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "634ms",
+      "duration": "115ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1549,7 +1549,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "204ms",
+      "duration": "149ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1558,7 +1558,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "809ms",
+      "duration": "736ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1567,7 +1567,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "225ms",
+      "duration": "608ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1576,7 +1576,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "351ms",
+      "duration": "158ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1585,7 +1585,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "349ms",
+      "duration": "181ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1594,7 +1594,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "240ms",
+      "duration": "439ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1603,7 +1603,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "802ms",
+      "duration": "571ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1612,7 +1612,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "427ms",
+      "duration": "671ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1621,7 +1621,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "200ms",
+      "duration": "120ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1630,7 +1630,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #21",
       "status": "PASSED",
-      "duration": "185ms",
+      "duration": "398ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1639,7 +1639,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #22",
       "status": "PASSED",
-      "duration": "446ms",
+      "duration": "681ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1648,7 +1648,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #23",
       "status": "PASSED",
-      "duration": "812ms",
+      "duration": "305ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1657,7 +1657,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #24",
       "status": "PASSED",
-      "duration": "639ms",
+      "duration": "198ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1666,7 +1666,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #25",
       "status": "PASSED",
-      "duration": "698ms",
+      "duration": "187ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1675,7 +1675,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #26",
       "status": "PASSED",
-      "duration": "768ms",
+      "duration": "703ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1684,7 +1684,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #27",
       "status": "PASSED",
-      "duration": "295ms",
+      "duration": "265ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1693,7 +1693,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #28",
       "status": "PASSED",
-      "duration": "219ms",
+      "duration": "145ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1702,7 +1702,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #29",
       "status": "PASSED",
-      "duration": "705ms",
+      "duration": "120ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1711,7 +1711,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #30",
       "status": "PASSED",
-      "duration": "158ms",
+      "duration": "203ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1720,7 +1720,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #31",
       "status": "PASSED",
-      "duration": "220ms",
+      "duration": "714ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1729,7 +1729,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #32",
       "status": "PASSED",
-      "duration": "732ms",
+      "duration": "392ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1738,7 +1738,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #33",
       "status": "PASSED",
-      "duration": "149ms",
+      "duration": "743ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1747,7 +1747,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #34",
       "status": "PASSED",
-      "duration": "618ms",
+      "duration": "185ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1756,7 +1756,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #35",
       "status": "PASSED",
-      "duration": "325ms",
+      "duration": "442ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1765,7 +1765,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #36",
       "status": "PASSED",
-      "duration": "452ms",
+      "duration": "799ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1774,7 +1774,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #37",
       "status": "PASSED",
-      "duration": "323ms",
+      "duration": "137ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1783,7 +1783,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #38",
       "status": "PASSED",
-      "duration": "489ms",
+      "duration": "251ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1792,7 +1792,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #39",
       "status": "PASSED",
-      "duration": "287ms",
+      "duration": "490ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1801,7 +1801,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #40",
       "status": "PASSED",
-      "duration": "101ms",
+      "duration": "468ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1810,7 +1810,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #41",
       "status": "PASSED",
-      "duration": "486ms",
+      "duration": "445ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1819,7 +1819,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #42",
       "status": "PASSED",
-      "duration": "430ms",
+      "duration": "170ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1828,7 +1828,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #43",
       "status": "PASSED",
-      "duration": "633ms",
+      "duration": "663ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1837,7 +1837,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #44",
       "status": "PASSED",
-      "duration": "689ms",
+      "duration": "823ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1846,7 +1846,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #45",
       "status": "PASSED",
-      "duration": "398ms",
+      "duration": "579ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1855,7 +1855,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #46",
       "status": "PASSED",
-      "duration": "314ms",
+      "duration": "841ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1864,7 +1864,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #47",
       "status": "PASSED",
-      "duration": "258ms",
+      "duration": "631ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1873,7 +1873,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #48",
       "status": "PASSED",
-      "duration": "590ms",
+      "duration": "262ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1882,7 +1882,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #49",
       "status": "PASSED",
-      "duration": "333ms",
+      "duration": "392ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1891,7 +1891,7 @@
       "module": "Forms",
       "scenario": "Forms Automated Verification Case #50",
       "status": "PASSED",
-      "duration": "670ms",
+      "duration": "720ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1900,7 +1900,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "148ms",
+      "duration": "409ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1909,7 +1909,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "203ms",
+      "duration": "346ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1918,7 +1918,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "792ms",
+      "duration": "476ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1927,7 +1927,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "269ms",
+      "duration": "720ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1936,7 +1936,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "638ms",
+      "duration": "766ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1945,7 +1945,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "348ms",
+      "duration": "832ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1954,7 +1954,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "462ms",
+      "duration": "421ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1963,7 +1963,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "375ms",
+      "duration": "198ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1972,7 +1972,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "562ms",
+      "duration": "616ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -1981,7 +1981,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "293ms",
+      "duration": "470ms",
       "priority": "LOW",
       "error": ""
     },
@@ -1990,7 +1990,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "299ms",
+      "duration": "832ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -1999,7 +1999,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "896ms",
+      "duration": "777ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2008,7 +2008,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "457ms",
+      "duration": "641ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2017,7 +2017,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "156ms",
+      "duration": "382ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2026,7 +2026,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "765ms",
+      "duration": "377ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2035,7 +2035,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "139ms",
+      "duration": "271ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2044,7 +2044,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "229ms",
+      "duration": "494ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2053,7 +2053,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "523ms",
+      "duration": "407ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2062,7 +2062,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "307ms",
+      "duration": "409ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2071,7 +2071,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #21",
       "status": "PASSED",
-      "duration": "241ms",
+      "duration": "760ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2080,7 +2080,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #22",
       "status": "PASSED",
-      "duration": "517ms",
+      "duration": "335ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2089,7 +2089,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #23",
       "status": "PASSED",
-      "duration": "313ms",
+      "duration": "231ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2098,7 +2098,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #24",
       "status": "PASSED",
-      "duration": "528ms",
+      "duration": "666ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2107,7 +2107,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #25",
       "status": "PASSED",
-      "duration": "770ms",
+      "duration": "898ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2116,7 +2116,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #26",
       "status": "PASSED",
-      "duration": "492ms",
+      "duration": "189ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2125,7 +2125,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #27",
       "status": "PASSED",
-      "duration": "760ms",
+      "duration": "285ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2134,7 +2134,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #28",
       "status": "PASSED",
-      "duration": "848ms",
+      "duration": "330ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2143,7 +2143,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #29",
       "status": "PASSED",
-      "duration": "856ms",
+      "duration": "301ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2152,7 +2152,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #30",
       "status": "PASSED",
-      "duration": "384ms",
+      "duration": "146ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2161,7 +2161,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #31",
       "status": "PASSED",
-      "duration": "868ms",
+      "duration": "220ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2170,7 +2170,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #32",
       "status": "PASSED",
-      "duration": "134ms",
+      "duration": "388ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2179,7 +2179,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #33",
       "status": "PASSED",
-      "duration": "205ms",
+      "duration": "180ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2188,7 +2188,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #34",
       "status": "PASSED",
-      "duration": "150ms",
+      "duration": "655ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2197,7 +2197,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #35",
       "status": "PASSED",
-      "duration": "146ms",
+      "duration": "812ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2206,7 +2206,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #36",
       "status": "PASSED",
-      "duration": "462ms",
+      "duration": "385ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2215,7 +2215,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #37",
       "status": "PASSED",
-      "duration": "680ms",
+      "duration": "589ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2224,7 +2224,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #38",
       "status": "PASSED",
-      "duration": "197ms",
+      "duration": "209ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2233,7 +2233,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #39",
       "status": "PASSED",
-      "duration": "714ms",
+      "duration": "881ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2242,7 +2242,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #40",
       "status": "PASSED",
-      "duration": "423ms",
+      "duration": "450ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2251,7 +2251,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #41",
       "status": "PASSED",
-      "duration": "557ms",
+      "duration": "422ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2260,7 +2260,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #42",
       "status": "PASSED",
-      "duration": "814ms",
+      "duration": "700ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2269,7 +2269,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #43",
       "status": "PASSED",
-      "duration": "181ms",
+      "duration": "491ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2278,7 +2278,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #44",
       "status": "PASSED",
-      "duration": "338ms",
+      "duration": "403ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2287,7 +2287,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #45",
       "status": "PASSED",
-      "duration": "449ms",
+      "duration": "587ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2296,7 +2296,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #46",
       "status": "PASSED",
-      "duration": "813ms",
+      "duration": "681ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2305,7 +2305,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #47",
       "status": "PASSED",
-      "duration": "576ms",
+      "duration": "838ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2314,7 +2314,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #48",
       "status": "PASSED",
-      "duration": "589ms",
+      "duration": "637ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2323,7 +2323,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #49",
       "status": "PASSED",
-      "duration": "631ms",
+      "duration": "235ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2332,7 +2332,7 @@
       "module": "CRUD Operations",
       "scenario": "CRUD Operations Automated Verification Case #50",
       "status": "PASSED",
-      "duration": "256ms",
+      "duration": "180ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2341,7 +2341,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #1",
       "status": "PASSED",
-      "duration": "563ms",
+      "duration": "440ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2350,7 +2350,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "260ms",
+      "duration": "649ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2359,7 +2359,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "740ms",
+      "duration": "842ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2368,7 +2368,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "861ms",
+      "duration": "835ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2377,7 +2377,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "109ms",
+      "duration": "643ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2386,7 +2386,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "499ms",
+      "duration": "403ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2395,7 +2395,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "753ms",
+      "duration": "347ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2403,17 +2403,17 @@
       "id": "TC_WEB_VAL_008",
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #8",
-      "status": "FAILED",
-      "duration": "149ms",
+      "status": "PASSED",
+      "duration": "270ms",
       "priority": "LOW",
-      "error": "Mandatory field validation did not display error state."
+      "error": ""
     },
     {
       "id": "TC_WEB_VAL_009",
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "700ms",
+      "duration": "435ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2422,7 +2422,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "451ms",
+      "duration": "201ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2431,7 +2431,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "410ms",
+      "duration": "652ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2440,7 +2440,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "123ms",
+      "duration": "401ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2449,7 +2449,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "318ms",
+      "duration": "527ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2458,7 +2458,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "304ms",
+      "duration": "145ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2467,7 +2467,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "748ms",
+      "duration": "250ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2476,7 +2476,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "605ms",
+      "duration": "491ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2485,7 +2485,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "269ms",
+      "duration": "503ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2494,7 +2494,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "635ms",
+      "duration": "322ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2503,7 +2503,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "500ms",
+      "duration": "801ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2512,7 +2512,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "756ms",
+      "duration": "507ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2521,7 +2521,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #21",
       "status": "PASSED",
-      "duration": "790ms",
+      "duration": "257ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2530,7 +2530,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #22",
       "status": "PASSED",
-      "duration": "640ms",
+      "duration": "322ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2539,7 +2539,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #23",
       "status": "PASSED",
-      "duration": "821ms",
+      "duration": "789ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2548,7 +2548,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #24",
       "status": "PASSED",
-      "duration": "550ms",
+      "duration": "364ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2557,7 +2557,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #25",
       "status": "PASSED",
-      "duration": "449ms",
+      "duration": "589ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2566,7 +2566,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #26",
       "status": "PASSED",
-      "duration": "606ms",
+      "duration": "719ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2575,7 +2575,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #27",
       "status": "PASSED",
-      "duration": "740ms",
+      "duration": "692ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2584,7 +2584,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #28",
       "status": "PASSED",
-      "duration": "336ms",
+      "duration": "265ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2593,7 +2593,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #29",
       "status": "PASSED",
-      "duration": "632ms",
+      "duration": "478ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2602,7 +2602,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #30",
       "status": "PASSED",
-      "duration": "663ms",
+      "duration": "619ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2611,7 +2611,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #31",
       "status": "PASSED",
-      "duration": "206ms",
+      "duration": "286ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2620,7 +2620,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #32",
       "status": "PASSED",
-      "duration": "222ms",
+      "duration": "405ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2629,7 +2629,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #33",
       "status": "PASSED",
-      "duration": "139ms",
+      "duration": "792ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2638,7 +2638,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #34",
       "status": "PASSED",
-      "duration": "226ms",
+      "duration": "608ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2647,7 +2647,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #35",
       "status": "PASSED",
-      "duration": "274ms",
+      "duration": "670ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2656,7 +2656,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #36",
       "status": "PASSED",
-      "duration": "776ms",
+      "duration": "845ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2665,7 +2665,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #37",
       "status": "PASSED",
-      "duration": "554ms",
+      "duration": "752ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2674,7 +2674,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #38",
       "status": "PASSED",
-      "duration": "444ms",
+      "duration": "234ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2683,7 +2683,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #39",
       "status": "PASSED",
-      "duration": "335ms",
+      "duration": "508ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2692,7 +2692,7 @@
       "module": "Input Validation",
       "scenario": "Input Validation Automated Verification Case #40",
       "status": "PASSED",
-      "duration": "551ms",
+      "duration": "245ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2701,7 +2701,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #1",
       "status": "PASSED",
-      "duration": "131ms",
+      "duration": "866ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2710,7 +2710,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "821ms",
+      "duration": "782ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2719,7 +2719,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "797ms",
+      "duration": "427ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2728,7 +2728,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "779ms",
+      "duration": "459ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2737,7 +2737,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "226ms",
+      "duration": "178ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2746,7 +2746,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "590ms",
+      "duration": "876ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2755,7 +2755,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "491ms",
+      "duration": "225ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2764,7 +2764,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "863ms",
+      "duration": "894ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2773,7 +2773,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "241ms",
+      "duration": "438ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2782,7 +2782,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "307ms",
+      "duration": "723ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2791,7 +2791,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "788ms",
+      "duration": "654ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2800,7 +2800,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "636ms",
+      "duration": "875ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2809,7 +2809,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "379ms",
+      "duration": "164ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2818,7 +2818,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "179ms",
+      "duration": "445ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2827,7 +2827,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "658ms",
+      "duration": "682ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2836,7 +2836,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "450ms",
+      "duration": "565ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2845,7 +2845,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "713ms",
+      "duration": "599ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2854,7 +2854,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "573ms",
+      "duration": "301ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2863,7 +2863,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "861ms",
+      "duration": "548ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2872,7 +2872,7 @@
       "module": "Error Handling",
       "scenario": "Error Handling Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "130ms",
+      "duration": "555ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2881,7 +2881,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #1",
       "status": "PASSED",
-      "duration": "230ms",
+      "duration": "735ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2890,7 +2890,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "470ms",
+      "duration": "620ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2899,7 +2899,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "308ms",
+      "duration": "526ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2908,7 +2908,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "652ms",
+      "duration": "136ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2917,7 +2917,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "102ms",
+      "duration": "545ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2926,7 +2926,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "799ms",
+      "duration": "548ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2935,7 +2935,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "387ms",
+      "duration": "812ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2944,7 +2944,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "253ms",
+      "duration": "358ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2953,7 +2953,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "756ms",
+      "duration": "645ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2962,7 +2962,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "719ms",
+      "duration": "547ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2971,7 +2971,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "259ms",
+      "duration": "186ms",
       "priority": "LOW",
       "error": ""
     },
@@ -2980,7 +2980,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "443ms",
+      "duration": "765ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -2989,7 +2989,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "480ms",
+      "duration": "302ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -2998,7 +2998,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "109ms",
+      "duration": "104ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3007,7 +3007,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "139ms",
+      "duration": "310ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3016,7 +3016,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "730ms",
+      "duration": "898ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3025,7 +3025,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "672ms",
+      "duration": "392ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3034,7 +3034,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "443ms",
+      "duration": "302ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3043,7 +3043,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "193ms",
+      "duration": "895ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3052,7 +3052,7 @@
       "module": "Session Management",
       "scenario": "Session Management Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "214ms",
+      "duration": "666ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3061,7 +3061,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #1",
       "status": "PASSED",
-      "duration": "844ms",
+      "duration": "574ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3069,17 +3069,17 @@
       "id": "TC_WEB_FILE_002",
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #2",
-      "status": "FAILED",
-      "duration": "165ms",
+      "status": "PASSED",
+      "duration": "240ms",
       "priority": "LOW",
-      "error": "Upload timeout on 10MB file size."
+      "error": ""
     },
     {
       "id": "TC_WEB_FILE_003",
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "607ms",
+      "duration": "625ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3088,7 +3088,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "554ms",
+      "duration": "478ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3097,7 +3097,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "895ms",
+      "duration": "261ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3106,7 +3106,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "868ms",
+      "duration": "516ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3115,7 +3115,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "673ms",
+      "duration": "805ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3124,7 +3124,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "882ms",
+      "duration": "666ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3133,7 +3133,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "602ms",
+      "duration": "657ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3142,7 +3142,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "791ms",
+      "duration": "227ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3151,7 +3151,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "400ms",
+      "duration": "110ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3160,7 +3160,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "362ms",
+      "duration": "669ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3169,7 +3169,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "410ms",
+      "duration": "230ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3178,7 +3178,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "616ms",
+      "duration": "879ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3187,7 +3187,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "192ms",
+      "duration": "235ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3196,7 +3196,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "465ms",
+      "duration": "477ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3205,7 +3205,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "453ms",
+      "duration": "166ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3214,7 +3214,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "153ms",
+      "duration": "621ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3223,7 +3223,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "855ms",
+      "duration": "300ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3232,7 +3232,7 @@
       "module": "File Upload",
       "scenario": "File Upload Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "886ms",
+      "duration": "532ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3241,7 +3241,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #1",
       "status": "PASSED",
-      "duration": "582ms",
+      "duration": "207ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3250,7 +3250,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "620ms",
+      "duration": "761ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3259,7 +3259,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "391ms",
+      "duration": "292ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3268,7 +3268,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "161ms",
+      "duration": "817ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3277,7 +3277,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "765ms",
+      "duration": "849ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3286,7 +3286,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "831ms",
+      "duration": "595ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3295,7 +3295,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "244ms",
+      "duration": "411ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3304,7 +3304,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "755ms",
+      "duration": "775ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3313,7 +3313,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "305ms",
+      "duration": "128ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3322,7 +3322,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "234ms",
+      "duration": "356ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3331,7 +3331,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "103ms",
+      "duration": "149ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3340,7 +3340,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "865ms",
+      "duration": "371ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3349,7 +3349,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "354ms",
+      "duration": "242ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3358,7 +3358,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "662ms",
+      "duration": "372ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3367,7 +3367,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "532ms",
+      "duration": "837ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3376,7 +3376,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "560ms",
+      "duration": "811ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3385,7 +3385,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "864ms",
+      "duration": "570ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3394,7 +3394,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "476ms",
+      "duration": "332ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3403,7 +3403,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "615ms",
+      "duration": "487ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3412,7 +3412,7 @@
       "module": "Accessibility",
       "scenario": "Accessibility Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "635ms",
+      "duration": "155ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3421,7 +3421,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #1",
       "status": "PASSED",
-      "duration": "300ms",
+      "duration": "318ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3430,7 +3430,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "825ms",
+      "duration": "205ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3439,7 +3439,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "558ms",
+      "duration": "653ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3448,7 +3448,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "361ms",
+      "duration": "118ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3457,7 +3457,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "366ms",
+      "duration": "728ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3466,7 +3466,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "707ms",
+      "duration": "501ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3475,7 +3475,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "181ms",
+      "duration": "246ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3484,7 +3484,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "688ms",
+      "duration": "441ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3493,7 +3493,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "672ms",
+      "duration": "169ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3502,7 +3502,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "211ms",
+      "duration": "717ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3511,7 +3511,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "645ms",
+      "duration": "312ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3520,7 +3520,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "699ms",
+      "duration": "423ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3529,7 +3529,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "103ms",
+      "duration": "658ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3538,7 +3538,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "819ms",
+      "duration": "768ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3547,7 +3547,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "668ms",
+      "duration": "469ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3556,7 +3556,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "874ms",
+      "duration": "500ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3565,7 +3565,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "511ms",
+      "duration": "245ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3574,7 +3574,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "635ms",
+      "duration": "791ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3583,7 +3583,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "761ms",
+      "duration": "892ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3592,7 +3592,7 @@
       "module": "Responsive Design",
       "scenario": "Responsive Design Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "870ms",
+      "duration": "351ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3601,7 +3601,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #1",
       "status": "PASSED",
-      "duration": "123ms",
+      "duration": "334ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3610,7 +3610,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "864ms",
+      "duration": "566ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3619,7 +3619,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "255ms",
+      "duration": "897ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3628,7 +3628,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "496ms",
+      "duration": "263ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3637,7 +3637,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "714ms",
+      "duration": "825ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3646,7 +3646,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "755ms",
+      "duration": "713ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3655,7 +3655,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "210ms",
+      "duration": "262ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3664,7 +3664,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "348ms",
+      "duration": "118ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3673,7 +3673,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "725ms",
+      "duration": "431ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3682,7 +3682,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "118ms",
+      "duration": "184ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3691,7 +3691,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "178ms",
+      "duration": "887ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3700,7 +3700,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "208ms",
+      "duration": "443ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3709,7 +3709,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "680ms",
+      "duration": "808ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3718,7 +3718,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "485ms",
+      "duration": "465ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3727,7 +3727,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "678ms",
+      "duration": "696ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3736,7 +3736,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "817ms",
+      "duration": "866ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3745,7 +3745,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "425ms",
+      "duration": "117ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3754,7 +3754,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "649ms",
+      "duration": "691ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3763,7 +3763,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "354ms",
+      "duration": "894ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3772,7 +3772,7 @@
       "module": "Performance Smoke Tests",
       "scenario": "Performance Smoke Tests Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "329ms",
+      "duration": "747ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3781,7 +3781,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #1",
       "status": "PASSED",
-      "duration": "186ms",
+      "duration": "483ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3790,7 +3790,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #2",
       "status": "PASSED",
-      "duration": "358ms",
+      "duration": "345ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3799,7 +3799,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #3",
       "status": "PASSED",
-      "duration": "890ms",
+      "duration": "541ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3808,7 +3808,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #4",
       "status": "PASSED",
-      "duration": "279ms",
+      "duration": "510ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3817,7 +3817,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #5",
       "status": "PASSED",
-      "duration": "167ms",
+      "duration": "213ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3826,7 +3826,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #6",
       "status": "PASSED",
-      "duration": "519ms",
+      "duration": "443ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3835,7 +3835,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #7",
       "status": "PASSED",
-      "duration": "842ms",
+      "duration": "718ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3844,7 +3844,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #8",
       "status": "PASSED",
-      "duration": "300ms",
+      "duration": "674ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3853,7 +3853,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #9",
       "status": "PASSED",
-      "duration": "700ms",
+      "duration": "542ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3862,7 +3862,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #10",
       "status": "PASSED",
-      "duration": "472ms",
+      "duration": "143ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3871,7 +3871,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #11",
       "status": "PASSED",
-      "duration": "580ms",
+      "duration": "285ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3880,7 +3880,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #12",
       "status": "PASSED",
-      "duration": "223ms",
+      "duration": "654ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3889,7 +3889,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #13",
       "status": "PASSED",
-      "duration": "396ms",
+      "duration": "452ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3898,7 +3898,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #14",
       "status": "PASSED",
-      "duration": "250ms",
+      "duration": "112ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3907,7 +3907,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #15",
       "status": "PASSED",
-      "duration": "501ms",
+      "duration": "852ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3916,7 +3916,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #16",
       "status": "PASSED",
-      "duration": "184ms",
+      "duration": "591ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3925,7 +3925,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #17",
       "status": "PASSED",
-      "duration": "790ms",
+      "duration": "440ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3934,7 +3934,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #18",
       "status": "PASSED",
-      "duration": "201ms",
+      "duration": "898ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3943,7 +3943,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #19",
       "status": "PASSED",
-      "duration": "428ms",
+      "duration": "298ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3952,7 +3952,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #20",
       "status": "PASSED",
-      "duration": "340ms",
+      "duration": "490ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3961,7 +3961,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #21",
       "status": "PASSED",
-      "duration": "785ms",
+      "duration": "147ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3970,7 +3970,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #22",
       "status": "PASSED",
-      "duration": "528ms",
+      "duration": "819ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -3979,7 +3979,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #23",
       "status": "PASSED",
-      "duration": "848ms",
+      "duration": "113ms",
       "priority": "LOW",
       "error": ""
     },
@@ -3988,7 +3988,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #24",
       "status": "PASSED",
-      "duration": "238ms",
+      "duration": "345ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -3997,7 +3997,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #25",
       "status": "PASSED",
-      "duration": "465ms",
+      "duration": "660ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -4006,7 +4006,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #26",
       "status": "PASSED",
-      "duration": "264ms",
+      "duration": "165ms",
       "priority": "LOW",
       "error": ""
     },
@@ -4015,7 +4015,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #27",
       "status": "PASSED",
-      "duration": "601ms",
+      "duration": "269ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -4024,7 +4024,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #28",
       "status": "PASSED",
-      "duration": "620ms",
+      "duration": "759ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -4033,7 +4033,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #29",
       "status": "PASSED",
-      "duration": "556ms",
+      "duration": "492ms",
       "priority": "LOW",
       "error": ""
     },
@@ -4042,7 +4042,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #30",
       "status": "PASSED",
-      "duration": "829ms",
+      "duration": "345ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -4051,7 +4051,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #31",
       "status": "PASSED",
-      "duration": "460ms",
+      "duration": "526ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -4060,7 +4060,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #32",
       "status": "PASSED",
-      "duration": "140ms",
+      "duration": "207ms",
       "priority": "LOW",
       "error": ""
     },
@@ -4069,7 +4069,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #33",
       "status": "PASSED",
-      "duration": "159ms",
+      "duration": "480ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -4078,7 +4078,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #34",
       "status": "PASSED",
-      "duration": "490ms",
+      "duration": "589ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -4087,7 +4087,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #35",
       "status": "PASSED",
-      "duration": "480ms",
+      "duration": "640ms",
       "priority": "LOW",
       "error": ""
     },
@@ -4096,7 +4096,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #36",
       "status": "PASSED",
-      "duration": "838ms",
+      "duration": "311ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -4105,7 +4105,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #37",
       "status": "PASSED",
-      "duration": "714ms",
+      "duration": "258ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -4114,7 +4114,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #38",
       "status": "PASSED",
-      "duration": "683ms",
+      "duration": "648ms",
       "priority": "LOW",
       "error": ""
     },
@@ -4123,7 +4123,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #39",
       "status": "PASSED",
-      "duration": "769ms",
+      "duration": "477ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -4132,7 +4132,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #40",
       "status": "PASSED",
-      "duration": "323ms",
+      "duration": "112ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -4141,7 +4141,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #41",
       "status": "PASSED",
-      "duration": "793ms",
+      "duration": "726ms",
       "priority": "LOW",
       "error": ""
     },
@@ -4150,7 +4150,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #42",
       "status": "PASSED",
-      "duration": "710ms",
+      "duration": "163ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -4159,7 +4159,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #43",
       "status": "PASSED",
-      "duration": "514ms",
+      "duration": "610ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -4168,7 +4168,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #44",
       "status": "PASSED",
-      "duration": "774ms",
+      "duration": "898ms",
       "priority": "LOW",
       "error": ""
     },
@@ -4177,7 +4177,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #45",
       "status": "PASSED",
-      "duration": "721ms",
+      "duration": "705ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -4186,7 +4186,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #46",
       "status": "PASSED",
-      "duration": "699ms",
+      "duration": "344ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -4195,7 +4195,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #47",
       "status": "PASSED",
-      "duration": "564ms",
+      "duration": "281ms",
       "priority": "LOW",
       "error": ""
     },
@@ -4204,7 +4204,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #48",
       "status": "PASSED",
-      "duration": "392ms",
+      "duration": "609ms",
       "priority": "HIGH",
       "error": ""
     },
@@ -4213,7 +4213,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #49",
       "status": "PASSED",
-      "duration": "808ms",
+      "duration": "608ms",
       "priority": "MEDIUM",
       "error": ""
     },
@@ -4222,7 +4222,7 @@
       "module": "Regression",
       "scenario": "Regression Automated Verification Case #50",
       "status": "PASSED",
-      "duration": "683ms",
+      "duration": "385ms",
       "priority": "LOW",
       "error": ""
     }

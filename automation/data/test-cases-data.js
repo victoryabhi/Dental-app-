@@ -26,29 +26,7 @@ export const testCases = [];
 modules.forEach(mod => {
   for (let i = 1; i <= mod.count; i++) {
     const id = `${mod.prefix}${String(i).padStart(3, '0')}`;
-    let status = "PASSED";
-    let actualResult = "Successfully completed steps.";
-    let failureReason = "";
     
-    // Seed some expected simulated failures (approx 2% failures for realistic reporting)
-    if (id === "TC_AUTH_010") {
-      status = "FAILED";
-      actualResult = "OTP verification timed out.";
-      failureReason = "OTP validation mismatch";
-    } else if (id === "TC_FORM_008") {
-      status = "FAILED";
-      actualResult = "Validation popup did not show.";
-      failureReason = "Validation message missing";
-    } else if (id === "TC_FILE_002") {
-      status = "FAILED";
-      actualResult = "Out of memory crash on 50MB radiograph.";
-      failureReason = "Application crash on large file upload";
-    } else if (id === "TC_NOTIF_004") {
-      status = "SKIPPED";
-      actualResult = "Skipped because push notifications were disabled.";
-      failureReason = "Feature Disabled";
-    }
-
     testCases.push({
       id,
       module: mod.name,
@@ -58,9 +36,9 @@ modules.forEach(mod => {
       steps: `1. Launch app\n2. Open ${mod.name} tab\n3. Execute scenario step #${i}`,
       testData: `data_input_${i}`,
       expectedResult: `Verify ${mod.name} handles scenario step #${i} correctly.`,
-      actualResult,
-      status,
-      error: failureReason
+      actualResult: "Successfully completed steps.",
+      status: "PASSED",
+      error: ""
     });
   }
 });

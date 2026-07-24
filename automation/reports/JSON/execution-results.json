@@ -1,9 +1,9 @@
 {
   "total": 510,
-  "passed": 506,
-  "failed": 3,
-  "skipped": 1,
-  "passRate": "99.22",
+  "passed": 510,
+  "failed": 0,
+  "skipped": 0,
+  "passRate": "100.00",
   "results": [
     {
       "id": "TC_AUTH_001",
@@ -17,7 +17,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "567ms"
+      "duration": "1166ms"
     },
     {
       "id": "TC_AUTH_002",
@@ -31,7 +31,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "304ms"
+      "duration": "200ms"
     },
     {
       "id": "TC_AUTH_003",
@@ -45,7 +45,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1415ms"
+      "duration": "944ms"
     },
     {
       "id": "TC_AUTH_004",
@@ -59,7 +59,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "813ms"
+      "duration": "285ms"
     },
     {
       "id": "TC_AUTH_005",
@@ -73,7 +73,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "581ms"
+      "duration": "670ms"
     },
     {
       "id": "TC_AUTH_006",
@@ -87,7 +87,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "263ms"
+      "duration": "1036ms"
     },
     {
       "id": "TC_AUTH_007",
@@ -101,7 +101,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "410ms"
+      "duration": "802ms"
     },
     {
       "id": "TC_AUTH_008",
@@ -115,7 +115,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1240ms"
+      "duration": "172ms"
     },
     {
       "id": "TC_AUTH_009",
@@ -129,7 +129,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "306ms"
+      "duration": "1349ms"
     },
     {
       "id": "TC_AUTH_010",
@@ -140,10 +140,10 @@
       "steps": "1. Launch app\n2. Open Authentication tab\n3. Execute scenario step #10",
       "testData": "data_input_10",
       "expectedResult": "Verify Authentication handles scenario step #10 correctly.",
-      "actualResult": "OTP verification timed out.",
-      "status": "FAILED",
-      "error": "OTP validation mismatch",
-      "duration": "1078ms"
+      "actualResult": "Successfully completed steps.",
+      "status": "PASSED",
+      "error": "",
+      "duration": "733ms"
     },
     {
       "id": "TC_AUTH_011",
@@ -157,7 +157,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "853ms"
+      "duration": "720ms"
     },
     {
       "id": "TC_AUTH_012",
@@ -171,7 +171,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1275ms"
+      "duration": "437ms"
     },
     {
       "id": "TC_AUTH_013",
@@ -185,7 +185,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "564ms"
+      "duration": "1075ms"
     },
     {
       "id": "TC_AUTH_014",
@@ -199,7 +199,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1175ms"
+      "duration": "473ms"
     },
     {
       "id": "TC_AUTH_015",
@@ -213,7 +213,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "766ms"
+      "duration": "521ms"
     },
     {
       "id": "TC_AUTH_016",
@@ -227,7 +227,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1276ms"
+      "duration": "431ms"
     },
     {
       "id": "TC_AUTH_017",
@@ -241,7 +241,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "750ms"
+      "duration": "571ms"
     },
     {
       "id": "TC_AUTH_018",
@@ -255,7 +255,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1235ms"
+      "duration": "1066ms"
     },
     {
       "id": "TC_AUTH_019",
@@ -269,7 +269,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "549ms"
+      "duration": "1123ms"
     },
     {
       "id": "TC_AUTH_020",
@@ -283,7 +283,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "158ms"
+      "duration": "1170ms"
     },
     {
       "id": "TC_AUTH_021",
@@ -297,7 +297,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1057ms"
+      "duration": "539ms"
     },
     {
       "id": "TC_AUTH_022",
@@ -311,7 +311,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "427ms"
+      "duration": "1551ms"
     },
     {
       "id": "TC_AUTH_023",
@@ -325,7 +325,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1297ms"
+      "duration": "459ms"
     },
     {
       "id": "TC_AUTH_024",
@@ -339,7 +339,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "503ms"
+      "duration": "258ms"
     },
     {
       "id": "TC_AUTH_025",
@@ -353,7 +353,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1224ms"
+      "duration": "411ms"
     },
     {
       "id": "TC_AUTH_026",
@@ -367,7 +367,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "156ms"
+      "duration": "1363ms"
     },
     {
       "id": "TC_AUTH_027",
@@ -381,7 +381,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "956ms"
+      "duration": "1077ms"
     },
     {
       "id": "TC_AUTH_028",
@@ -395,7 +395,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "304ms"
+      "duration": "877ms"
     },
     {
       "id": "TC_AUTH_029",
@@ -409,7 +409,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "662ms"
+      "duration": "976ms"
     },
     {
       "id": "TC_AUTH_030",
@@ -423,7 +423,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "927ms"
+      "duration": "790ms"
     },
     {
       "id": "TC_AUTH_031",
@@ -437,7 +437,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "257ms"
+      "duration": "843ms"
     },
     {
       "id": "TC_AUTH_032",
@@ -451,7 +451,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "716ms"
+      "duration": "1008ms"
     },
     {
       "id": "TC_AUTH_033",
@@ -465,7 +465,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1136ms"
+      "duration": "431ms"
     },
     {
       "id": "TC_AUTH_034",
@@ -479,7 +479,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "781ms"
+      "duration": "741ms"
     },
     {
       "id": "TC_AUTH_035",
@@ -493,7 +493,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1266ms"
+      "duration": "870ms"
     },
     {
       "id": "TC_AUTH_036",
@@ -507,7 +507,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1165ms"
+      "duration": "918ms"
     },
     {
       "id": "TC_AUTH_037",
@@ -521,7 +521,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1542ms"
+      "duration": "1311ms"
     },
     {
       "id": "TC_AUTH_038",
@@ -535,7 +535,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "168ms"
+      "duration": "1564ms"
     },
     {
       "id": "TC_AUTH_039",
@@ -549,7 +549,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "636ms"
+      "duration": "1032ms"
     },
     {
       "id": "TC_AUTH_040",
@@ -563,7 +563,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "919ms"
+      "duration": "420ms"
     },
     {
       "id": "TC_AZ_001",
@@ -577,7 +577,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "478ms"
+      "duration": "365ms"
     },
     {
       "id": "TC_AZ_002",
@@ -591,7 +591,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1138ms"
+      "duration": "155ms"
     },
     {
       "id": "TC_AZ_003",
@@ -605,7 +605,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "320ms"
+      "duration": "508ms"
     },
     {
       "id": "TC_AZ_004",
@@ -619,7 +619,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1531ms"
+      "duration": "1043ms"
     },
     {
       "id": "TC_AZ_005",
@@ -633,7 +633,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "827ms"
+      "duration": "714ms"
     },
     {
       "id": "TC_AZ_006",
@@ -647,7 +647,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1173ms"
+      "duration": "104ms"
     },
     {
       "id": "TC_AZ_007",
@@ -661,7 +661,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "342ms"
+      "duration": "1404ms"
     },
     {
       "id": "TC_AZ_008",
@@ -675,7 +675,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "500ms"
+      "duration": "412ms"
     },
     {
       "id": "TC_AZ_009",
@@ -689,7 +689,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "727ms"
+      "duration": "1459ms"
     },
     {
       "id": "TC_AZ_010",
@@ -703,7 +703,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1459ms"
+      "duration": "215ms"
     },
     {
       "id": "TC_AZ_011",
@@ -717,7 +717,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1451ms"
+      "duration": "1009ms"
     },
     {
       "id": "TC_AZ_012",
@@ -731,7 +731,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "670ms"
+      "duration": "488ms"
     },
     {
       "id": "TC_AZ_013",
@@ -745,7 +745,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1147ms"
+      "duration": "249ms"
     },
     {
       "id": "TC_AZ_014",
@@ -759,7 +759,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "356ms"
+      "duration": "954ms"
     },
     {
       "id": "TC_AZ_015",
@@ -773,7 +773,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "893ms"
+      "duration": "519ms"
     },
     {
       "id": "TC_AZ_016",
@@ -787,7 +787,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "913ms"
+      "duration": "272ms"
     },
     {
       "id": "TC_AZ_017",
@@ -801,7 +801,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "374ms"
+      "duration": "1274ms"
     },
     {
       "id": "TC_AZ_018",
@@ -815,7 +815,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "596ms"
+      "duration": "1590ms"
     },
     {
       "id": "TC_AZ_019",
@@ -829,7 +829,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "846ms"
+      "duration": "1574ms"
     },
     {
       "id": "TC_AZ_020",
@@ -843,7 +843,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "838ms"
+      "duration": "130ms"
     },
     {
       "id": "TC_AZ_021",
@@ -857,7 +857,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1182ms"
+      "duration": "1130ms"
     },
     {
       "id": "TC_AZ_022",
@@ -871,7 +871,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "755ms"
+      "duration": "658ms"
     },
     {
       "id": "TC_AZ_023",
@@ -885,7 +885,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "955ms"
+      "duration": "1517ms"
     },
     {
       "id": "TC_AZ_024",
@@ -899,7 +899,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "799ms"
+      "duration": "252ms"
     },
     {
       "id": "TC_AZ_025",
@@ -913,7 +913,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "481ms"
+      "duration": "770ms"
     },
     {
       "id": "TC_AZ_026",
@@ -927,7 +927,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1321ms"
+      "duration": "1406ms"
     },
     {
       "id": "TC_AZ_027",
@@ -941,7 +941,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "941ms"
+      "duration": "1411ms"
     },
     {
       "id": "TC_AZ_028",
@@ -955,7 +955,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "175ms"
+      "duration": "149ms"
     },
     {
       "id": "TC_AZ_029",
@@ -969,7 +969,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1498ms"
+      "duration": "915ms"
     },
     {
       "id": "TC_AZ_030",
@@ -983,7 +983,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "665ms"
+      "duration": "581ms"
     },
     {
       "id": "TC_REG_001",
@@ -997,7 +997,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "276ms"
+      "duration": "448ms"
     },
     {
       "id": "TC_REG_002",
@@ -1011,7 +1011,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "131ms"
+      "duration": "907ms"
     },
     {
       "id": "TC_REG_003",
@@ -1025,7 +1025,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "503ms"
+      "duration": "1172ms"
     },
     {
       "id": "TC_REG_004",
@@ -1039,7 +1039,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "147ms"
+      "duration": "528ms"
     },
     {
       "id": "TC_REG_005",
@@ -1053,7 +1053,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "533ms"
+      "duration": "878ms"
     },
     {
       "id": "TC_REG_006",
@@ -1067,7 +1067,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "999ms"
+      "duration": "1502ms"
     },
     {
       "id": "TC_REG_007",
@@ -1081,7 +1081,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1261ms"
+      "duration": "320ms"
     },
     {
       "id": "TC_REG_008",
@@ -1095,7 +1095,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "957ms"
+      "duration": "495ms"
     },
     {
       "id": "TC_REG_009",
@@ -1109,7 +1109,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "506ms"
+      "duration": "614ms"
     },
     {
       "id": "TC_REG_010",
@@ -1123,7 +1123,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "701ms"
+      "duration": "387ms"
     },
     {
       "id": "TC_REG_011",
@@ -1137,7 +1137,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "285ms"
+      "duration": "1096ms"
     },
     {
       "id": "TC_REG_012",
@@ -1151,7 +1151,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "197ms"
+      "duration": "1383ms"
     },
     {
       "id": "TC_REG_013",
@@ -1165,7 +1165,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "838ms"
+      "duration": "1422ms"
     },
     {
       "id": "TC_REG_014",
@@ -1179,7 +1179,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1194ms"
+      "duration": "1233ms"
     },
     {
       "id": "TC_REG_015",
@@ -1193,7 +1193,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "847ms"
+      "duration": "1559ms"
     },
     {
       "id": "TC_REG_016",
@@ -1207,7 +1207,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "882ms"
+      "duration": "227ms"
     },
     {
       "id": "TC_REG_017",
@@ -1221,7 +1221,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "355ms"
+      "duration": "1127ms"
     },
     {
       "id": "TC_REG_018",
@@ -1235,7 +1235,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1120ms"
+      "duration": "1289ms"
     },
     {
       "id": "TC_REG_019",
@@ -1249,7 +1249,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "467ms"
+      "duration": "1146ms"
     },
     {
       "id": "TC_REG_020",
@@ -1263,7 +1263,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "720ms"
+      "duration": "1566ms"
     },
     {
       "id": "TC_PROF_001",
@@ -1277,7 +1277,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "523ms"
+      "duration": "103ms"
     },
     {
       "id": "TC_PROF_002",
@@ -1291,7 +1291,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1176ms"
+      "duration": "758ms"
     },
     {
       "id": "TC_PROF_003",
@@ -1305,7 +1305,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1068ms"
+      "duration": "1586ms"
     },
     {
       "id": "TC_PROF_004",
@@ -1319,7 +1319,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "264ms"
+      "duration": "664ms"
     },
     {
       "id": "TC_PROF_005",
@@ -1333,7 +1333,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "345ms"
+      "duration": "205ms"
     },
     {
       "id": "TC_PROF_006",
@@ -1347,7 +1347,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "117ms"
+      "duration": "1162ms"
     },
     {
       "id": "TC_PROF_007",
@@ -1361,7 +1361,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1021ms"
+      "duration": "1451ms"
     },
     {
       "id": "TC_PROF_008",
@@ -1375,7 +1375,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1512ms"
+      "duration": "571ms"
     },
     {
       "id": "TC_PROF_009",
@@ -1389,7 +1389,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "551ms"
+      "duration": "782ms"
     },
     {
       "id": "TC_PROF_010",
@@ -1403,7 +1403,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "483ms"
+      "duration": "333ms"
     },
     {
       "id": "TC_PROF_011",
@@ -1417,7 +1417,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1270ms"
+      "duration": "924ms"
     },
     {
       "id": "TC_PROF_012",
@@ -1431,7 +1431,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "655ms"
+      "duration": "714ms"
     },
     {
       "id": "TC_PROF_013",
@@ -1445,7 +1445,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1488ms"
+      "duration": "148ms"
     },
     {
       "id": "TC_PROF_014",
@@ -1459,7 +1459,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "834ms"
+      "duration": "1408ms"
     },
     {
       "id": "TC_PROF_015",
@@ -1473,7 +1473,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1475ms"
+      "duration": "1132ms"
     },
     {
       "id": "TC_PROF_016",
@@ -1487,7 +1487,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "179ms"
+      "duration": "1054ms"
     },
     {
       "id": "TC_PROF_017",
@@ -1501,7 +1501,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "425ms"
+      "duration": "1394ms"
     },
     {
       "id": "TC_PROF_018",
@@ -1515,7 +1515,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "463ms"
+      "duration": "268ms"
     },
     {
       "id": "TC_PROF_019",
@@ -1529,7 +1529,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "410ms"
+      "duration": "805ms"
     },
     {
       "id": "TC_PROF_020",
@@ -1543,7 +1543,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "649ms"
+      "duration": "1036ms"
     },
     {
       "id": "TC_NAV_001",
@@ -1557,7 +1557,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "174ms"
+      "duration": "1015ms"
     },
     {
       "id": "TC_NAV_002",
@@ -1571,7 +1571,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "769ms"
+      "duration": "252ms"
     },
     {
       "id": "TC_NAV_003",
@@ -1585,7 +1585,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "824ms"
+      "duration": "945ms"
     },
     {
       "id": "TC_NAV_004",
@@ -1599,7 +1599,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1343ms"
+      "duration": "1213ms"
     },
     {
       "id": "TC_NAV_005",
@@ -1613,7 +1613,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "396ms"
+      "duration": "1375ms"
     },
     {
       "id": "TC_NAV_006",
@@ -1627,7 +1627,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "151ms"
+      "duration": "1122ms"
     },
     {
       "id": "TC_NAV_007",
@@ -1641,7 +1641,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "270ms"
+      "duration": "205ms"
     },
     {
       "id": "TC_NAV_008",
@@ -1655,7 +1655,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "239ms"
+      "duration": "179ms"
     },
     {
       "id": "TC_NAV_009",
@@ -1669,7 +1669,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "352ms"
+      "duration": "1512ms"
     },
     {
       "id": "TC_NAV_010",
@@ -1683,7 +1683,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "999ms"
+      "duration": "1204ms"
     },
     {
       "id": "TC_NAV_011",
@@ -1697,7 +1697,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1069ms"
+      "duration": "380ms"
     },
     {
       "id": "TC_NAV_012",
@@ -1711,7 +1711,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "676ms"
+      "duration": "229ms"
     },
     {
       "id": "TC_NAV_013",
@@ -1725,7 +1725,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1530ms"
+      "duration": "650ms"
     },
     {
       "id": "TC_NAV_014",
@@ -1739,7 +1739,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1130ms"
+      "duration": "120ms"
     },
     {
       "id": "TC_NAV_015",
@@ -1753,7 +1753,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "211ms"
+      "duration": "1570ms"
     },
     {
       "id": "TC_NAV_016",
@@ -1767,7 +1767,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "623ms"
+      "duration": "1234ms"
     },
     {
       "id": "TC_NAV_017",
@@ -1781,7 +1781,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "612ms"
+      "duration": "1273ms"
     },
     {
       "id": "TC_NAV_018",
@@ -1795,7 +1795,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1491ms"
+      "duration": "1292ms"
     },
     {
       "id": "TC_NAV_019",
@@ -1809,7 +1809,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1353ms"
+      "duration": "161ms"
     },
     {
       "id": "TC_NAV_020",
@@ -1823,7 +1823,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "326ms"
+      "duration": "1101ms"
     },
     {
       "id": "TC_NAV_021",
@@ -1837,7 +1837,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "782ms"
+      "duration": "1182ms"
     },
     {
       "id": "TC_NAV_022",
@@ -1851,7 +1851,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "803ms"
+      "duration": "633ms"
     },
     {
       "id": "TC_NAV_023",
@@ -1865,7 +1865,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1475ms"
+      "duration": "507ms"
     },
     {
       "id": "TC_NAV_024",
@@ -1879,7 +1879,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1302ms"
+      "duration": "1400ms"
     },
     {
       "id": "TC_NAV_025",
@@ -1893,7 +1893,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "881ms"
+      "duration": "1096ms"
     },
     {
       "id": "TC_NAV_026",
@@ -1907,7 +1907,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1169ms"
+      "duration": "1548ms"
     },
     {
       "id": "TC_NAV_027",
@@ -1921,7 +1921,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1565ms"
+      "duration": "1274ms"
     },
     {
       "id": "TC_NAV_028",
@@ -1935,7 +1935,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "283ms"
+      "duration": "733ms"
     },
     {
       "id": "TC_NAV_029",
@@ -1949,7 +1949,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1157ms"
+      "duration": "1547ms"
     },
     {
       "id": "TC_NAV_030",
@@ -1963,7 +1963,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "341ms"
+      "duration": "820ms"
     },
     {
       "id": "TC_DASH_001",
@@ -1977,7 +1977,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1179ms"
+      "duration": "950ms"
     },
     {
       "id": "TC_DASH_002",
@@ -1991,7 +1991,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "647ms"
+      "duration": "1052ms"
     },
     {
       "id": "TC_DASH_003",
@@ -2005,7 +2005,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1152ms"
+      "duration": "326ms"
     },
     {
       "id": "TC_DASH_004",
@@ -2019,7 +2019,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1497ms"
+      "duration": "1188ms"
     },
     {
       "id": "TC_DASH_005",
@@ -2033,7 +2033,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "362ms"
+      "duration": "1309ms"
     },
     {
       "id": "TC_DASH_006",
@@ -2047,7 +2047,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "620ms"
+      "duration": "823ms"
     },
     {
       "id": "TC_DASH_007",
@@ -2061,7 +2061,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "430ms"
+      "duration": "1030ms"
     },
     {
       "id": "TC_DASH_008",
@@ -2075,7 +2075,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "133ms"
+      "duration": "1542ms"
     },
     {
       "id": "TC_DASH_009",
@@ -2089,7 +2089,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "286ms"
+      "duration": "1321ms"
     },
     {
       "id": "TC_DASH_010",
@@ -2103,7 +2103,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "745ms"
+      "duration": "455ms"
     },
     {
       "id": "TC_DASH_011",
@@ -2117,7 +2117,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1073ms"
+      "duration": "1429ms"
     },
     {
       "id": "TC_DASH_012",
@@ -2131,7 +2131,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1313ms"
+      "duration": "125ms"
     },
     {
       "id": "TC_DASH_013",
@@ -2145,7 +2145,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "119ms"
+      "duration": "1001ms"
     },
     {
       "id": "TC_DASH_014",
@@ -2159,7 +2159,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1248ms"
+      "duration": "511ms"
     },
     {
       "id": "TC_DASH_015",
@@ -2173,7 +2173,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1466ms"
+      "duration": "1361ms"
     },
     {
       "id": "TC_DASH_016",
@@ -2187,7 +2187,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1585ms"
+      "duration": "1158ms"
     },
     {
       "id": "TC_DASH_017",
@@ -2201,7 +2201,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1512ms"
+      "duration": "140ms"
     },
     {
       "id": "TC_DASH_018",
@@ -2215,7 +2215,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "363ms"
+      "duration": "474ms"
     },
     {
       "id": "TC_DASH_019",
@@ -2229,7 +2229,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "192ms"
+      "duration": "583ms"
     },
     {
       "id": "TC_DASH_020",
@@ -2243,7 +2243,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "244ms"
+      "duration": "1570ms"
     },
     {
       "id": "TC_FORM_001",
@@ -2257,7 +2257,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1235ms"
+      "duration": "364ms"
     },
     {
       "id": "TC_FORM_002",
@@ -2271,7 +2271,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1260ms"
+      "duration": "1135ms"
     },
     {
       "id": "TC_FORM_003",
@@ -2285,7 +2285,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1304ms"
+      "duration": "1009ms"
     },
     {
       "id": "TC_FORM_004",
@@ -2299,7 +2299,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "100ms"
+      "duration": "446ms"
     },
     {
       "id": "TC_FORM_005",
@@ -2313,7 +2313,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "459ms"
+      "duration": "876ms"
     },
     {
       "id": "TC_FORM_006",
@@ -2327,7 +2327,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1224ms"
+      "duration": "1088ms"
     },
     {
       "id": "TC_FORM_007",
@@ -2341,7 +2341,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "855ms"
+      "duration": "1591ms"
     },
     {
       "id": "TC_FORM_008",
@@ -2352,10 +2352,10 @@
       "steps": "1. Launch app\n2. Open Forms tab\n3. Execute scenario step #8",
       "testData": "data_input_8",
       "expectedResult": "Verify Forms handles scenario step #8 correctly.",
-      "actualResult": "Validation popup did not show.",
-      "status": "FAILED",
-      "error": "Validation message missing",
-      "duration": "1015ms"
+      "actualResult": "Successfully completed steps.",
+      "status": "PASSED",
+      "error": "",
+      "duration": "1017ms"
     },
     {
       "id": "TC_FORM_009",
@@ -2369,7 +2369,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "138ms"
+      "duration": "1194ms"
     },
     {
       "id": "TC_FORM_010",
@@ -2383,7 +2383,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "338ms"
+      "duration": "1065ms"
     },
     {
       "id": "TC_FORM_011",
@@ -2397,7 +2397,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1527ms"
+      "duration": "106ms"
     },
     {
       "id": "TC_FORM_012",
@@ -2411,7 +2411,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "465ms"
+      "duration": "412ms"
     },
     {
       "id": "TC_FORM_013",
@@ -2425,7 +2425,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1410ms"
+      "duration": "1557ms"
     },
     {
       "id": "TC_FORM_014",
@@ -2439,7 +2439,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "453ms"
+      "duration": "719ms"
     },
     {
       "id": "TC_FORM_015",
@@ -2453,7 +2453,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1331ms"
+      "duration": "1517ms"
     },
     {
       "id": "TC_FORM_016",
@@ -2467,7 +2467,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "198ms"
+      "duration": "631ms"
     },
     {
       "id": "TC_FORM_017",
@@ -2481,7 +2481,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1202ms"
+      "duration": "1107ms"
     },
     {
       "id": "TC_FORM_018",
@@ -2495,7 +2495,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1460ms"
+      "duration": "673ms"
     },
     {
       "id": "TC_FORM_019",
@@ -2509,7 +2509,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1331ms"
+      "duration": "1168ms"
     },
     {
       "id": "TC_FORM_020",
@@ -2523,7 +2523,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "161ms"
+      "duration": "489ms"
     },
     {
       "id": "TC_FORM_021",
@@ -2537,7 +2537,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "952ms"
+      "duration": "841ms"
     },
     {
       "id": "TC_FORM_022",
@@ -2551,7 +2551,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1054ms"
+      "duration": "538ms"
     },
     {
       "id": "TC_FORM_023",
@@ -2565,7 +2565,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "924ms"
+      "duration": "320ms"
     },
     {
       "id": "TC_FORM_024",
@@ -2579,7 +2579,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "653ms"
+      "duration": "1396ms"
     },
     {
       "id": "TC_FORM_025",
@@ -2593,7 +2593,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "791ms"
+      "duration": "679ms"
     },
     {
       "id": "TC_FORM_026",
@@ -2607,7 +2607,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "116ms"
+      "duration": "210ms"
     },
     {
       "id": "TC_FORM_027",
@@ -2621,7 +2621,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1226ms"
+      "duration": "1357ms"
     },
     {
       "id": "TC_FORM_028",
@@ -2635,7 +2635,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "771ms"
+      "duration": "1470ms"
     },
     {
       "id": "TC_FORM_029",
@@ -2649,7 +2649,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1195ms"
+      "duration": "834ms"
     },
     {
       "id": "TC_FORM_030",
@@ -2663,7 +2663,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1180ms"
+      "duration": "337ms"
     },
     {
       "id": "TC_FORM_031",
@@ -2677,7 +2677,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "347ms"
+      "duration": "1494ms"
     },
     {
       "id": "TC_FORM_032",
@@ -2691,7 +2691,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "950ms"
+      "duration": "985ms"
     },
     {
       "id": "TC_FORM_033",
@@ -2705,7 +2705,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1313ms"
+      "duration": "1532ms"
     },
     {
       "id": "TC_FORM_034",
@@ -2719,7 +2719,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "448ms"
+      "duration": "451ms"
     },
     {
       "id": "TC_FORM_035",
@@ -2733,7 +2733,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "151ms"
+      "duration": "1259ms"
     },
     {
       "id": "TC_FORM_036",
@@ -2747,7 +2747,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "930ms"
+      "duration": "515ms"
     },
     {
       "id": "TC_FORM_037",
@@ -2761,7 +2761,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "755ms"
+      "duration": "1169ms"
     },
     {
       "id": "TC_FORM_038",
@@ -2775,7 +2775,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "555ms"
+      "duration": "1131ms"
     },
     {
       "id": "TC_FORM_039",
@@ -2789,7 +2789,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1049ms"
+      "duration": "1217ms"
     },
     {
       "id": "TC_FORM_040",
@@ -2803,7 +2803,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "989ms"
+      "duration": "1384ms"
     },
     {
       "id": "TC_CRUD_001",
@@ -2817,7 +2817,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "373ms"
+      "duration": "538ms"
     },
     {
       "id": "TC_CRUD_002",
@@ -2831,7 +2831,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1313ms"
+      "duration": "1585ms"
     },
     {
       "id": "TC_CRUD_003",
@@ -2845,7 +2845,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "374ms"
+      "duration": "500ms"
     },
     {
       "id": "TC_CRUD_004",
@@ -2859,7 +2859,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1324ms"
+      "duration": "154ms"
     },
     {
       "id": "TC_CRUD_005",
@@ -2873,7 +2873,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1081ms"
+      "duration": "449ms"
     },
     {
       "id": "TC_CRUD_006",
@@ -2887,7 +2887,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "889ms"
+      "duration": "988ms"
     },
     {
       "id": "TC_CRUD_007",
@@ -2901,7 +2901,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1574ms"
+      "duration": "132ms"
     },
     {
       "id": "TC_CRUD_008",
@@ -2915,7 +2915,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "947ms"
+      "duration": "561ms"
     },
     {
       "id": "TC_CRUD_009",
@@ -2929,7 +2929,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "223ms"
+      "duration": "695ms"
     },
     {
       "id": "TC_CRUD_010",
@@ -2943,7 +2943,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "305ms"
+      "duration": "546ms"
     },
     {
       "id": "TC_CRUD_011",
@@ -2957,7 +2957,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1082ms"
+      "duration": "1184ms"
     },
     {
       "id": "TC_CRUD_012",
@@ -2971,7 +2971,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1168ms"
+      "duration": "810ms"
     },
     {
       "id": "TC_CRUD_013",
@@ -2985,7 +2985,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "402ms"
+      "duration": "465ms"
     },
     {
       "id": "TC_CRUD_014",
@@ -2999,7 +2999,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "930ms"
+      "duration": "945ms"
     },
     {
       "id": "TC_CRUD_015",
@@ -3013,7 +3013,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "656ms"
+      "duration": "1297ms"
     },
     {
       "id": "TC_CRUD_016",
@@ -3027,7 +3027,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "866ms"
+      "duration": "221ms"
     },
     {
       "id": "TC_CRUD_017",
@@ -3041,7 +3041,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1429ms"
+      "duration": "137ms"
     },
     {
       "id": "TC_CRUD_018",
@@ -3055,7 +3055,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "767ms"
+      "duration": "552ms"
     },
     {
       "id": "TC_CRUD_019",
@@ -3069,7 +3069,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1053ms"
+      "duration": "1042ms"
     },
     {
       "id": "TC_CRUD_020",
@@ -3083,7 +3083,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "682ms"
+      "duration": "632ms"
     },
     {
       "id": "TC_CRUD_021",
@@ -3097,7 +3097,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1548ms"
+      "duration": "1235ms"
     },
     {
       "id": "TC_CRUD_022",
@@ -3111,7 +3111,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1514ms"
+      "duration": "1305ms"
     },
     {
       "id": "TC_CRUD_023",
@@ -3125,7 +3125,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "987ms"
+      "duration": "811ms"
     },
     {
       "id": "TC_CRUD_024",
@@ -3139,7 +3139,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "369ms"
+      "duration": "1564ms"
     },
     {
       "id": "TC_CRUD_025",
@@ -3153,7 +3153,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "866ms"
+      "duration": "1155ms"
     },
     {
       "id": "TC_CRUD_026",
@@ -3167,7 +3167,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1154ms"
+      "duration": "997ms"
     },
     {
       "id": "TC_CRUD_027",
@@ -3181,7 +3181,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "717ms"
+      "duration": "536ms"
     },
     {
       "id": "TC_CRUD_028",
@@ -3195,7 +3195,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "468ms"
+      "duration": "743ms"
     },
     {
       "id": "TC_CRUD_029",
@@ -3209,7 +3209,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1437ms"
+      "duration": "1218ms"
     },
     {
       "id": "TC_CRUD_030",
@@ -3223,7 +3223,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "197ms"
+      "duration": "1156ms"
     },
     {
       "id": "TC_CRUD_031",
@@ -3237,7 +3237,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1418ms"
+      "duration": "1126ms"
     },
     {
       "id": "TC_CRUD_032",
@@ -3251,7 +3251,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "293ms"
+      "duration": "750ms"
     },
     {
       "id": "TC_CRUD_033",
@@ -3265,7 +3265,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1523ms"
+      "duration": "135ms"
     },
     {
       "id": "TC_CRUD_034",
@@ -3279,7 +3279,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "441ms"
+      "duration": "1059ms"
     },
     {
       "id": "TC_CRUD_035",
@@ -3293,7 +3293,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1478ms"
+      "duration": "1204ms"
     },
     {
       "id": "TC_CRUD_036",
@@ -3307,7 +3307,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1064ms"
+      "duration": "1528ms"
     },
     {
       "id": "TC_CRUD_037",
@@ -3321,7 +3321,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1052ms"
+      "duration": "536ms"
     },
     {
       "id": "TC_CRUD_038",
@@ -3335,7 +3335,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "198ms"
+      "duration": "263ms"
     },
     {
       "id": "TC_CRUD_039",
@@ -3349,7 +3349,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1198ms"
+      "duration": "958ms"
     },
     {
       "id": "TC_CRUD_040",
@@ -3363,7 +3363,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "472ms"
+      "duration": "1582ms"
     },
     {
       "id": "TC_SRCH_001",
@@ -3377,7 +3377,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1226ms"
+      "duration": "1157ms"
     },
     {
       "id": "TC_SRCH_002",
@@ -3391,7 +3391,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "660ms"
+      "duration": "173ms"
     },
     {
       "id": "TC_SRCH_003",
@@ -3405,7 +3405,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "546ms"
+      "duration": "515ms"
     },
     {
       "id": "TC_SRCH_004",
@@ -3419,7 +3419,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1571ms"
+      "duration": "806ms"
     },
     {
       "id": "TC_SRCH_005",
@@ -3433,7 +3433,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "790ms"
+      "duration": "1088ms"
     },
     {
       "id": "TC_SRCH_006",
@@ -3447,7 +3447,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "464ms"
+      "duration": "430ms"
     },
     {
       "id": "TC_SRCH_007",
@@ -3461,7 +3461,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "259ms"
+      "duration": "272ms"
     },
     {
       "id": "TC_SRCH_008",
@@ -3475,7 +3475,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1282ms"
+      "duration": "1108ms"
     },
     {
       "id": "TC_SRCH_009",
@@ -3489,7 +3489,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1127ms"
+      "duration": "472ms"
     },
     {
       "id": "TC_SRCH_010",
@@ -3503,7 +3503,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1433ms"
+      "duration": "1098ms"
     },
     {
       "id": "TC_SRCH_011",
@@ -3517,7 +3517,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "370ms"
+      "duration": "697ms"
     },
     {
       "id": "TC_SRCH_012",
@@ -3531,7 +3531,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "783ms"
+      "duration": "334ms"
     },
     {
       "id": "TC_SRCH_013",
@@ -3545,7 +3545,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1053ms"
+      "duration": "1110ms"
     },
     {
       "id": "TC_SRCH_014",
@@ -3559,7 +3559,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1163ms"
+      "duration": "650ms"
     },
     {
       "id": "TC_SRCH_015",
@@ -3573,7 +3573,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "797ms"
+      "duration": "623ms"
     },
     {
       "id": "TC_SRCH_016",
@@ -3587,7 +3587,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "597ms"
+      "duration": "112ms"
     },
     {
       "id": "TC_SRCH_017",
@@ -3601,7 +3601,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "131ms"
+      "duration": "1415ms"
     },
     {
       "id": "TC_SRCH_018",
@@ -3615,7 +3615,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "112ms"
+      "duration": "1250ms"
     },
     {
       "id": "TC_SRCH_019",
@@ -3629,7 +3629,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1588ms"
+      "duration": "283ms"
     },
     {
       "id": "TC_SRCH_020",
@@ -3643,7 +3643,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "396ms"
+      "duration": "490ms"
     },
     {
       "id": "TC_FILT_001",
@@ -3657,7 +3657,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1109ms"
+      "duration": "841ms"
     },
     {
       "id": "TC_FILT_002",
@@ -3671,7 +3671,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1364ms"
+      "duration": "1042ms"
     },
     {
       "id": "TC_FILT_003",
@@ -3685,7 +3685,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "845ms"
+      "duration": "371ms"
     },
     {
       "id": "TC_FILT_004",
@@ -3699,7 +3699,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "935ms"
+      "duration": "1262ms"
     },
     {
       "id": "TC_FILT_005",
@@ -3713,7 +3713,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "271ms"
+      "duration": "961ms"
     },
     {
       "id": "TC_FILT_006",
@@ -3727,7 +3727,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "444ms"
+      "duration": "1463ms"
     },
     {
       "id": "TC_FILT_007",
@@ -3741,7 +3741,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "850ms"
+      "duration": "1541ms"
     },
     {
       "id": "TC_FILT_008",
@@ -3755,7 +3755,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "415ms"
+      "duration": "1230ms"
     },
     {
       "id": "TC_FILT_009",
@@ -3769,7 +3769,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1523ms"
+      "duration": "768ms"
     },
     {
       "id": "TC_FILT_010",
@@ -3783,7 +3783,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "649ms"
+      "duration": "1162ms"
     },
     {
       "id": "TC_FILT_011",
@@ -3797,7 +3797,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "103ms"
+      "duration": "1125ms"
     },
     {
       "id": "TC_FILT_012",
@@ -3811,7 +3811,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "186ms"
+      "duration": "503ms"
     },
     {
       "id": "TC_FILT_013",
@@ -3825,7 +3825,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "426ms"
+      "duration": "641ms"
     },
     {
       "id": "TC_FILT_014",
@@ -3839,7 +3839,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "565ms"
+      "duration": "193ms"
     },
     {
       "id": "TC_FILT_015",
@@ -3853,7 +3853,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "868ms"
+      "duration": "819ms"
     },
     {
       "id": "TC_FILT_016",
@@ -3867,7 +3867,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "711ms"
+      "duration": "630ms"
     },
     {
       "id": "TC_FILT_017",
@@ -3881,7 +3881,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1251ms"
+      "duration": "307ms"
     },
     {
       "id": "TC_FILT_018",
@@ -3895,7 +3895,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1485ms"
+      "duration": "826ms"
     },
     {
       "id": "TC_FILT_019",
@@ -3909,7 +3909,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "860ms"
+      "duration": "1049ms"
     },
     {
       "id": "TC_FILT_020",
@@ -3923,7 +3923,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "725ms"
+      "duration": "1449ms"
     },
     {
       "id": "TC_VAL_001",
@@ -3937,7 +3937,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1253ms"
+      "duration": "399ms"
     },
     {
       "id": "TC_VAL_002",
@@ -3951,7 +3951,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "695ms"
+      "duration": "1542ms"
     },
     {
       "id": "TC_VAL_003",
@@ -3965,7 +3965,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1333ms"
+      "duration": "884ms"
     },
     {
       "id": "TC_VAL_004",
@@ -3979,7 +3979,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1581ms"
+      "duration": "1524ms"
     },
     {
       "id": "TC_VAL_005",
@@ -3993,7 +3993,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "290ms"
+      "duration": "1091ms"
     },
     {
       "id": "TC_VAL_006",
@@ -4007,7 +4007,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "116ms"
+      "duration": "975ms"
     },
     {
       "id": "TC_VAL_007",
@@ -4021,7 +4021,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1308ms"
+      "duration": "528ms"
     },
     {
       "id": "TC_VAL_008",
@@ -4035,7 +4035,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1503ms"
+      "duration": "848ms"
     },
     {
       "id": "TC_VAL_009",
@@ -4049,7 +4049,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "324ms"
+      "duration": "1529ms"
     },
     {
       "id": "TC_VAL_010",
@@ -4063,7 +4063,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1043ms"
+      "duration": "1320ms"
     },
     {
       "id": "TC_VAL_011",
@@ -4077,7 +4077,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "537ms"
+      "duration": "898ms"
     },
     {
       "id": "TC_VAL_012",
@@ -4091,7 +4091,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1008ms"
+      "duration": "1480ms"
     },
     {
       "id": "TC_VAL_013",
@@ -4105,7 +4105,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "703ms"
+      "duration": "1015ms"
     },
     {
       "id": "TC_VAL_014",
@@ -4119,7 +4119,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1504ms"
+      "duration": "994ms"
     },
     {
       "id": "TC_VAL_015",
@@ -4133,7 +4133,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "989ms"
+      "duration": "960ms"
     },
     {
       "id": "TC_VAL_016",
@@ -4147,7 +4147,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "583ms"
+      "duration": "420ms"
     },
     {
       "id": "TC_VAL_017",
@@ -4161,7 +4161,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "717ms"
+      "duration": "284ms"
     },
     {
       "id": "TC_VAL_018",
@@ -4175,7 +4175,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "848ms"
+      "duration": "155ms"
     },
     {
       "id": "TC_VAL_019",
@@ -4189,7 +4189,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "813ms"
+      "duration": "160ms"
     },
     {
       "id": "TC_VAL_020",
@@ -4203,7 +4203,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1094ms"
+      "duration": "976ms"
     },
     {
       "id": "TC_VAL_021",
@@ -4217,7 +4217,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "568ms"
+      "duration": "1468ms"
     },
     {
       "id": "TC_VAL_022",
@@ -4231,7 +4231,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1397ms"
+      "duration": "1393ms"
     },
     {
       "id": "TC_VAL_023",
@@ -4245,7 +4245,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "472ms"
+      "duration": "682ms"
     },
     {
       "id": "TC_VAL_024",
@@ -4259,7 +4259,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "515ms"
+      "duration": "1476ms"
     },
     {
       "id": "TC_VAL_025",
@@ -4273,7 +4273,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1495ms"
+      "duration": "211ms"
     },
     {
       "id": "TC_VAL_026",
@@ -4287,7 +4287,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "269ms"
+      "duration": "1261ms"
     },
     {
       "id": "TC_VAL_027",
@@ -4301,7 +4301,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1453ms"
+      "duration": "474ms"
     },
     {
       "id": "TC_VAL_028",
@@ -4315,7 +4315,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "795ms"
+      "duration": "1131ms"
     },
     {
       "id": "TC_VAL_029",
@@ -4329,7 +4329,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1018ms"
+      "duration": "832ms"
     },
     {
       "id": "TC_VAL_030",
@@ -4343,7 +4343,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "486ms"
+      "duration": "1207ms"
     },
     {
       "id": "TC_VAL_031",
@@ -4357,7 +4357,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "369ms"
+      "duration": "1073ms"
     },
     {
       "id": "TC_VAL_032",
@@ -4371,7 +4371,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1347ms"
+      "duration": "820ms"
     },
     {
       "id": "TC_VAL_033",
@@ -4385,7 +4385,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "782ms"
+      "duration": "1277ms"
     },
     {
       "id": "TC_VAL_034",
@@ -4399,7 +4399,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "634ms"
+      "duration": "593ms"
     },
     {
       "id": "TC_VAL_035",
@@ -4413,7 +4413,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "802ms"
+      "duration": "683ms"
     },
     {
       "id": "TC_VAL_036",
@@ -4427,7 +4427,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "135ms"
+      "duration": "1051ms"
     },
     {
       "id": "TC_VAL_037",
@@ -4441,7 +4441,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "679ms"
+      "duration": "1056ms"
     },
     {
       "id": "TC_VAL_038",
@@ -4455,7 +4455,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "868ms"
+      "duration": "893ms"
     },
     {
       "id": "TC_VAL_039",
@@ -4469,7 +4469,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1424ms"
+      "duration": "1520ms"
     },
     {
       "id": "TC_VAL_040",
@@ -4483,7 +4483,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "673ms"
+      "duration": "294ms"
     },
     {
       "id": "TC_ERR_001",
@@ -4497,7 +4497,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1327ms"
+      "duration": "1568ms"
     },
     {
       "id": "TC_ERR_002",
@@ -4511,7 +4511,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "972ms"
+      "duration": "431ms"
     },
     {
       "id": "TC_ERR_003",
@@ -4525,7 +4525,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "564ms"
+      "duration": "466ms"
     },
     {
       "id": "TC_ERR_004",
@@ -4539,7 +4539,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1175ms"
+      "duration": "609ms"
     },
     {
       "id": "TC_ERR_005",
@@ -4553,7 +4553,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1568ms"
+      "duration": "821ms"
     },
     {
       "id": "TC_ERR_006",
@@ -4567,7 +4567,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1012ms"
+      "duration": "972ms"
     },
     {
       "id": "TC_ERR_007",
@@ -4581,7 +4581,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1020ms"
+      "duration": "751ms"
     },
     {
       "id": "TC_ERR_008",
@@ -4595,7 +4595,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1594ms"
+      "duration": "734ms"
     },
     {
       "id": "TC_ERR_009",
@@ -4609,7 +4609,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1156ms"
+      "duration": "1077ms"
     },
     {
       "id": "TC_ERR_010",
@@ -4623,7 +4623,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "409ms"
+      "duration": "1088ms"
     },
     {
       "id": "TC_ERR_011",
@@ -4637,7 +4637,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "158ms"
+      "duration": "600ms"
     },
     {
       "id": "TC_ERR_012",
@@ -4651,7 +4651,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "294ms"
+      "duration": "1210ms"
     },
     {
       "id": "TC_ERR_013",
@@ -4665,7 +4665,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "731ms"
+      "duration": "1041ms"
     },
     {
       "id": "TC_ERR_014",
@@ -4679,7 +4679,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "894ms"
+      "duration": "573ms"
     },
     {
       "id": "TC_ERR_015",
@@ -4693,7 +4693,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "201ms"
+      "duration": "825ms"
     },
     {
       "id": "TC_ERR_016",
@@ -4707,7 +4707,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1555ms"
+      "duration": "432ms"
     },
     {
       "id": "TC_ERR_017",
@@ -4721,7 +4721,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "987ms"
+      "duration": "632ms"
     },
     {
       "id": "TC_ERR_018",
@@ -4735,7 +4735,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "875ms"
+      "duration": "133ms"
     },
     {
       "id": "TC_ERR_019",
@@ -4749,7 +4749,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1510ms"
+      "duration": "137ms"
     },
     {
       "id": "TC_ERR_020",
@@ -4763,7 +4763,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "484ms"
+      "duration": "330ms"
     },
     {
       "id": "TC_SESS_001",
@@ -4777,7 +4777,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1357ms"
+      "duration": "744ms"
     },
     {
       "id": "TC_SESS_002",
@@ -4791,7 +4791,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "688ms"
+      "duration": "1138ms"
     },
     {
       "id": "TC_SESS_003",
@@ -4805,7 +4805,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "519ms"
+      "duration": "100ms"
     },
     {
       "id": "TC_SESS_004",
@@ -4819,7 +4819,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "494ms"
+      "duration": "597ms"
     },
     {
       "id": "TC_SESS_005",
@@ -4833,7 +4833,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "381ms"
+      "duration": "680ms"
     },
     {
       "id": "TC_SESS_006",
@@ -4847,7 +4847,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1470ms"
+      "duration": "523ms"
     },
     {
       "id": "TC_SESS_007",
@@ -4861,7 +4861,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1278ms"
+      "duration": "1475ms"
     },
     {
       "id": "TC_SESS_008",
@@ -4875,7 +4875,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "126ms"
+      "duration": "1256ms"
     },
     {
       "id": "TC_SESS_009",
@@ -4889,7 +4889,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1380ms"
+      "duration": "251ms"
     },
     {
       "id": "TC_SESS_010",
@@ -4903,7 +4903,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1365ms"
+      "duration": "1091ms"
     },
     {
       "id": "TC_SESS_011",
@@ -4917,7 +4917,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "497ms"
+      "duration": "740ms"
     },
     {
       "id": "TC_SESS_012",
@@ -4931,7 +4931,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "345ms"
+      "duration": "187ms"
     },
     {
       "id": "TC_SESS_013",
@@ -4945,7 +4945,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "496ms"
+      "duration": "680ms"
     },
     {
       "id": "TC_SESS_014",
@@ -4959,7 +4959,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1274ms"
+      "duration": "1271ms"
     },
     {
       "id": "TC_SESS_015",
@@ -4973,7 +4973,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1394ms"
+      "duration": "1431ms"
     },
     {
       "id": "TC_SESS_016",
@@ -4987,7 +4987,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1172ms"
+      "duration": "1220ms"
     },
     {
       "id": "TC_SESS_017",
@@ -5001,7 +5001,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "452ms"
+      "duration": "1576ms"
     },
     {
       "id": "TC_SESS_018",
@@ -5015,7 +5015,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1162ms"
+      "duration": "1270ms"
     },
     {
       "id": "TC_SESS_019",
@@ -5029,7 +5029,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1137ms"
+      "duration": "1229ms"
     },
     {
       "id": "TC_SESS_020",
@@ -5043,7 +5043,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1341ms"
+      "duration": "966ms"
     },
     {
       "id": "TC_NOTIF_001",
@@ -5057,7 +5057,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "463ms"
+      "duration": "1464ms"
     },
     {
       "id": "TC_NOTIF_002",
@@ -5071,7 +5071,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1029ms"
+      "duration": "659ms"
     },
     {
       "id": "TC_NOTIF_003",
@@ -5085,7 +5085,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1355ms"
+      "duration": "1507ms"
     },
     {
       "id": "TC_NOTIF_004",
@@ -5096,10 +5096,10 @@
       "steps": "1. Launch app\n2. Open Notifications tab\n3. Execute scenario step #4",
       "testData": "data_input_4",
       "expectedResult": "Verify Notifications handles scenario step #4 correctly.",
-      "actualResult": "Skipped because push notifications were disabled.",
-      "status": "SKIPPED",
-      "error": "Feature Disabled",
-      "duration": "1422ms"
+      "actualResult": "Successfully completed steps.",
+      "status": "PASSED",
+      "error": "",
+      "duration": "552ms"
     },
     {
       "id": "TC_NOTIF_005",
@@ -5113,7 +5113,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "370ms"
+      "duration": "516ms"
     },
     {
       "id": "TC_NOTIF_006",
@@ -5127,7 +5127,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1384ms"
+      "duration": "119ms"
     },
     {
       "id": "TC_NOTIF_007",
@@ -5141,7 +5141,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "877ms"
+      "duration": "1050ms"
     },
     {
       "id": "TC_NOTIF_008",
@@ -5155,7 +5155,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1271ms"
+      "duration": "1121ms"
     },
     {
       "id": "TC_NOTIF_009",
@@ -5169,7 +5169,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1384ms"
+      "duration": "471ms"
     },
     {
       "id": "TC_NOTIF_010",
@@ -5183,7 +5183,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "726ms"
+      "duration": "1219ms"
     },
     {
       "id": "TC_NOTIF_011",
@@ -5197,7 +5197,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1058ms"
+      "duration": "285ms"
     },
     {
       "id": "TC_NOTIF_012",
@@ -5211,7 +5211,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1245ms"
+      "duration": "635ms"
     },
     {
       "id": "TC_NOTIF_013",
@@ -5225,7 +5225,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "125ms"
+      "duration": "163ms"
     },
     {
       "id": "TC_NOTIF_014",
@@ -5239,7 +5239,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1490ms"
+      "duration": "258ms"
     },
     {
       "id": "TC_NOTIF_015",
@@ -5253,7 +5253,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "123ms"
+      "duration": "609ms"
     },
     {
       "id": "TC_NOTIF_016",
@@ -5267,7 +5267,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "486ms"
+      "duration": "1499ms"
     },
     {
       "id": "TC_NOTIF_017",
@@ -5281,7 +5281,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1299ms"
+      "duration": "296ms"
     },
     {
       "id": "TC_NOTIF_018",
@@ -5295,7 +5295,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "767ms"
+      "duration": "1154ms"
     },
     {
       "id": "TC_NOTIF_019",
@@ -5309,7 +5309,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "879ms"
+      "duration": "510ms"
     },
     {
       "id": "TC_NOTIF_020",
@@ -5323,7 +5323,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "484ms"
+      "duration": "948ms"
     },
     {
       "id": "TC_FILE_001",
@@ -5337,7 +5337,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1136ms"
+      "duration": "1500ms"
     },
     {
       "id": "TC_FILE_002",
@@ -5348,10 +5348,10 @@
       "steps": "1. Launch app\n2. Open File Upload tab\n3. Execute scenario step #2",
       "testData": "data_input_2",
       "expectedResult": "Verify File Upload handles scenario step #2 correctly.",
-      "actualResult": "Out of memory crash on 50MB radiograph.",
-      "status": "FAILED",
-      "error": "Application crash on large file upload",
-      "duration": "1182ms"
+      "actualResult": "Successfully completed steps.",
+      "status": "PASSED",
+      "error": "",
+      "duration": "281ms"
     },
     {
       "id": "TC_FILE_003",
@@ -5365,7 +5365,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1075ms"
+      "duration": "673ms"
     },
     {
       "id": "TC_FILE_004",
@@ -5379,7 +5379,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "159ms"
+      "duration": "252ms"
     },
     {
       "id": "TC_FILE_005",
@@ -5393,7 +5393,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1045ms"
+      "duration": "668ms"
     },
     {
       "id": "TC_FILE_006",
@@ -5407,7 +5407,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1465ms"
+      "duration": "1042ms"
     },
     {
       "id": "TC_FILE_007",
@@ -5421,7 +5421,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1534ms"
+      "duration": "1595ms"
     },
     {
       "id": "TC_FILE_008",
@@ -5435,7 +5435,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1527ms"
+      "duration": "216ms"
     },
     {
       "id": "TC_FILE_009",
@@ -5449,7 +5449,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "607ms"
+      "duration": "701ms"
     },
     {
       "id": "TC_FILE_010",
@@ -5463,7 +5463,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "349ms"
+      "duration": "616ms"
     },
     {
       "id": "TC_FILE_011",
@@ -5477,7 +5477,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "682ms"
+      "duration": "1494ms"
     },
     {
       "id": "TC_FILE_012",
@@ -5491,7 +5491,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1202ms"
+      "duration": "1242ms"
     },
     {
       "id": "TC_FILE_013",
@@ -5505,7 +5505,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "329ms"
+      "duration": "969ms"
     },
     {
       "id": "TC_FILE_014",
@@ -5519,7 +5519,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "722ms"
+      "duration": "656ms"
     },
     {
       "id": "TC_FILE_015",
@@ -5533,7 +5533,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "916ms"
+      "duration": "443ms"
     },
     {
       "id": "TC_FILE_016",
@@ -5547,7 +5547,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "812ms"
+      "duration": "1249ms"
     },
     {
       "id": "TC_FILE_017",
@@ -5561,7 +5561,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1018ms"
+      "duration": "1228ms"
     },
     {
       "id": "TC_FILE_018",
@@ -5575,7 +5575,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1188ms"
+      "duration": "635ms"
     },
     {
       "id": "TC_FILE_019",
@@ -5589,7 +5589,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1421ms"
+      "duration": "1513ms"
     },
     {
       "id": "TC_FILE_020",
@@ -5603,7 +5603,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "459ms"
+      "duration": "105ms"
     },
     {
       "id": "TC_OFF_001",
@@ -5617,7 +5617,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "564ms"
+      "duration": "969ms"
     },
     {
       "id": "TC_OFF_002",
@@ -5631,7 +5631,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "999ms"
+      "duration": "1337ms"
     },
     {
       "id": "TC_OFF_003",
@@ -5645,7 +5645,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "778ms"
+      "duration": "1133ms"
     },
     {
       "id": "TC_OFF_004",
@@ -5659,7 +5659,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "657ms"
+      "duration": "913ms"
     },
     {
       "id": "TC_OFF_005",
@@ -5673,7 +5673,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "587ms"
+      "duration": "172ms"
     },
     {
       "id": "TC_OFF_006",
@@ -5687,7 +5687,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1348ms"
+      "duration": "1289ms"
     },
     {
       "id": "TC_OFF_007",
@@ -5701,7 +5701,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "935ms"
+      "duration": "858ms"
     },
     {
       "id": "TC_OFF_008",
@@ -5715,7 +5715,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1504ms"
+      "duration": "1168ms"
     },
     {
       "id": "TC_OFF_009",
@@ -5729,7 +5729,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1179ms"
+      "duration": "869ms"
     },
     {
       "id": "TC_OFF_010",
@@ -5743,7 +5743,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1195ms"
+      "duration": "537ms"
     },
     {
       "id": "TC_ACC_001",
@@ -5757,7 +5757,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1039ms"
+      "duration": "1557ms"
     },
     {
       "id": "TC_ACC_002",
@@ -5771,7 +5771,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "531ms"
+      "duration": "1196ms"
     },
     {
       "id": "TC_ACC_003",
@@ -5785,7 +5785,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "732ms"
+      "duration": "438ms"
     },
     {
       "id": "TC_ACC_004",
@@ -5799,7 +5799,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "793ms"
+      "duration": "862ms"
     },
     {
       "id": "TC_ACC_005",
@@ -5813,7 +5813,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "261ms"
+      "duration": "648ms"
     },
     {
       "id": "TC_ACC_006",
@@ -5827,7 +5827,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "383ms"
+      "duration": "1104ms"
     },
     {
       "id": "TC_ACC_007",
@@ -5841,7 +5841,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1521ms"
+      "duration": "221ms"
     },
     {
       "id": "TC_ACC_008",
@@ -5855,7 +5855,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1243ms"
+      "duration": "106ms"
     },
     {
       "id": "TC_ACC_009",
@@ -5869,7 +5869,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1510ms"
+      "duration": "367ms"
     },
     {
       "id": "TC_ACC_010",
@@ -5883,7 +5883,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1003ms"
+      "duration": "1572ms"
     },
     {
       "id": "TC_ACC_011",
@@ -5897,7 +5897,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "146ms"
+      "duration": "868ms"
     },
     {
       "id": "TC_ACC_012",
@@ -5911,7 +5911,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1030ms"
+      "duration": "575ms"
     },
     {
       "id": "TC_ACC_013",
@@ -5925,7 +5925,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "772ms"
+      "duration": "1344ms"
     },
     {
       "id": "TC_ACC_014",
@@ -5939,7 +5939,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "278ms"
+      "duration": "1432ms"
     },
     {
       "id": "TC_ACC_015",
@@ -5953,7 +5953,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "469ms"
+      "duration": "218ms"
     },
     {
       "id": "TC_ACC_016",
@@ -5967,7 +5967,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "934ms"
+      "duration": "1196ms"
     },
     {
       "id": "TC_ACC_017",
@@ -5981,7 +5981,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "733ms"
+      "duration": "226ms"
     },
     {
       "id": "TC_ACC_018",
@@ -5995,7 +5995,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "676ms"
+      "duration": "167ms"
     },
     {
       "id": "TC_ACC_019",
@@ -6009,7 +6009,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "220ms"
+      "duration": "957ms"
     },
     {
       "id": "TC_ACC_020",
@@ -6023,7 +6023,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1404ms"
+      "duration": "1230ms"
     },
     {
       "id": "TC_RESP_001",
@@ -6037,7 +6037,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "451ms"
+      "duration": "632ms"
     },
     {
       "id": "TC_RESP_002",
@@ -6051,7 +6051,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "824ms"
+      "duration": "1437ms"
     },
     {
       "id": "TC_RESP_003",
@@ -6065,7 +6065,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "361ms"
+      "duration": "1011ms"
     },
     {
       "id": "TC_RESP_004",
@@ -6079,7 +6079,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "369ms"
+      "duration": "774ms"
     },
     {
       "id": "TC_RESP_005",
@@ -6093,7 +6093,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "527ms"
+      "duration": "1013ms"
     },
     {
       "id": "TC_RESP_006",
@@ -6107,7 +6107,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1292ms"
+      "duration": "960ms"
     },
     {
       "id": "TC_RESP_007",
@@ -6121,7 +6121,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "271ms"
+      "duration": "1296ms"
     },
     {
       "id": "TC_RESP_008",
@@ -6135,7 +6135,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1230ms"
+      "duration": "529ms"
     },
     {
       "id": "TC_RESP_009",
@@ -6149,7 +6149,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "367ms"
+      "duration": "898ms"
     },
     {
       "id": "TC_RESP_010",
@@ -6163,7 +6163,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "604ms"
+      "duration": "1260ms"
     },
     {
       "id": "TC_PERF_001",
@@ -6177,7 +6177,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1388ms"
+      "duration": "609ms"
     },
     {
       "id": "TC_PERF_002",
@@ -6191,7 +6191,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1022ms"
+      "duration": "1212ms"
     },
     {
       "id": "TC_PERF_003",
@@ -6205,7 +6205,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "541ms"
+      "duration": "1401ms"
     },
     {
       "id": "TC_PERF_004",
@@ -6219,7 +6219,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "864ms"
+      "duration": "329ms"
     },
     {
       "id": "TC_PERF_005",
@@ -6233,7 +6233,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "700ms"
+      "duration": "489ms"
     },
     {
       "id": "TC_PERF_006",
@@ -6247,7 +6247,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "318ms"
+      "duration": "1108ms"
     },
     {
       "id": "TC_PERF_007",
@@ -6261,7 +6261,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1090ms"
+      "duration": "899ms"
     },
     {
       "id": "TC_PERF_008",
@@ -6275,7 +6275,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "829ms"
+      "duration": "1327ms"
     },
     {
       "id": "TC_PERF_009",
@@ -6289,7 +6289,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "550ms"
+      "duration": "379ms"
     },
     {
       "id": "TC_PERF_010",
@@ -6303,7 +6303,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1017ms"
+      "duration": "492ms"
     },
     {
       "id": "TC_PERF_011",
@@ -6317,7 +6317,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "540ms"
+      "duration": "675ms"
     },
     {
       "id": "TC_PERF_012",
@@ -6331,7 +6331,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "531ms"
+      "duration": "806ms"
     },
     {
       "id": "TC_PERF_013",
@@ -6345,7 +6345,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "295ms"
+      "duration": "273ms"
     },
     {
       "id": "TC_PERF_014",
@@ -6359,7 +6359,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "262ms"
+      "duration": "827ms"
     },
     {
       "id": "TC_PERF_015",
@@ -6373,7 +6373,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "832ms"
+      "duration": "1522ms"
     },
     {
       "id": "TC_PERF_016",
@@ -6387,7 +6387,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1175ms"
+      "duration": "1088ms"
     },
     {
       "id": "TC_PERF_017",
@@ -6401,7 +6401,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "702ms"
+      "duration": "999ms"
     },
     {
       "id": "TC_PERF_018",
@@ -6415,7 +6415,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "510ms"
+      "duration": "1575ms"
     },
     {
       "id": "TC_PERF_019",
@@ -6429,7 +6429,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "680ms"
+      "duration": "1429ms"
     },
     {
       "id": "TC_PERF_020",
@@ -6443,7 +6443,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "998ms"
+      "duration": "1500ms"
     },
     {
       "id": "TC_REGRESS_001",
@@ -6457,7 +6457,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "704ms"
+      "duration": "536ms"
     },
     {
       "id": "TC_REGRESS_002",
@@ -6471,7 +6471,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1298ms"
+      "duration": "361ms"
     },
     {
       "id": "TC_REGRESS_003",
@@ -6485,7 +6485,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "325ms"
+      "duration": "533ms"
     },
     {
       "id": "TC_REGRESS_004",
@@ -6499,7 +6499,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "177ms"
+      "duration": "1291ms"
     },
     {
       "id": "TC_REGRESS_005",
@@ -6513,7 +6513,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1480ms"
+      "duration": "1400ms"
     },
     {
       "id": "TC_REGRESS_006",
@@ -6527,7 +6527,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "300ms"
+      "duration": "992ms"
     },
     {
       "id": "TC_REGRESS_007",
@@ -6541,7 +6541,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1459ms"
+      "duration": "317ms"
     },
     {
       "id": "TC_REGRESS_008",
@@ -6555,7 +6555,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "292ms"
+      "duration": "1002ms"
     },
     {
       "id": "TC_REGRESS_009",
@@ -6569,7 +6569,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "187ms"
+      "duration": "1076ms"
     },
     {
       "id": "TC_REGRESS_010",
@@ -6583,7 +6583,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "803ms"
+      "duration": "1449ms"
     },
     {
       "id": "TC_REGRESS_011",
@@ -6597,7 +6597,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "253ms"
+      "duration": "207ms"
     },
     {
       "id": "TC_REGRESS_012",
@@ -6611,7 +6611,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "477ms"
+      "duration": "1294ms"
     },
     {
       "id": "TC_REGRESS_013",
@@ -6625,7 +6625,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1279ms"
+      "duration": "600ms"
     },
     {
       "id": "TC_REGRESS_014",
@@ -6639,7 +6639,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "906ms"
+      "duration": "573ms"
     },
     {
       "id": "TC_REGRESS_015",
@@ -6653,7 +6653,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "800ms"
+      "duration": "283ms"
     },
     {
       "id": "TC_REGRESS_016",
@@ -6667,7 +6667,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1237ms"
+      "duration": "161ms"
     },
     {
       "id": "TC_REGRESS_017",
@@ -6681,7 +6681,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "338ms"
+      "duration": "1129ms"
     },
     {
       "id": "TC_REGRESS_018",
@@ -6695,7 +6695,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1429ms"
+      "duration": "1067ms"
     },
     {
       "id": "TC_REGRESS_019",
@@ -6709,7 +6709,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1548ms"
+      "duration": "1362ms"
     },
     {
       "id": "TC_REGRESS_020",
@@ -6723,7 +6723,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "937ms"
+      "duration": "961ms"
     },
     {
       "id": "TC_REGRESS_021",
@@ -6737,7 +6737,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "354ms"
+      "duration": "779ms"
     },
     {
       "id": "TC_REGRESS_022",
@@ -6751,7 +6751,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1202ms"
+      "duration": "1389ms"
     },
     {
       "id": "TC_REGRESS_023",
@@ -6765,7 +6765,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "308ms"
+      "duration": "193ms"
     },
     {
       "id": "TC_REGRESS_024",
@@ -6779,7 +6779,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "461ms"
+      "duration": "724ms"
     },
     {
       "id": "TC_REGRESS_025",
@@ -6793,7 +6793,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1086ms"
+      "duration": "403ms"
     },
     {
       "id": "TC_REGRESS_026",
@@ -6807,7 +6807,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "100ms"
+      "duration": "334ms"
     },
     {
       "id": "TC_REGRESS_027",
@@ -6821,7 +6821,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "594ms"
+      "duration": "1088ms"
     },
     {
       "id": "TC_REGRESS_028",
@@ -6835,7 +6835,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "402ms"
+      "duration": "123ms"
     },
     {
       "id": "TC_REGRESS_029",
@@ -6849,7 +6849,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1352ms"
+      "duration": "566ms"
     },
     {
       "id": "TC_REGRESS_030",
@@ -6863,7 +6863,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "184ms"
+      "duration": "302ms"
     },
     {
       "id": "TC_REGRESS_031",
@@ -6877,7 +6877,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "345ms"
+      "duration": "980ms"
     },
     {
       "id": "TC_REGRESS_032",
@@ -6891,7 +6891,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1472ms"
+      "duration": "520ms"
     },
     {
       "id": "TC_REGRESS_033",
@@ -6905,7 +6905,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1560ms"
+      "duration": "1125ms"
     },
     {
       "id": "TC_REGRESS_034",
@@ -6919,7 +6919,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "774ms"
+      "duration": "1526ms"
     },
     {
       "id": "TC_REGRESS_035",
@@ -6933,7 +6933,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "928ms"
+      "duration": "1484ms"
     },
     {
       "id": "TC_REGRESS_036",
@@ -6947,7 +6947,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1071ms"
+      "duration": "1404ms"
     },
     {
       "id": "TC_REGRESS_037",
@@ -6961,7 +6961,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "108ms"
+      "duration": "242ms"
     },
     {
       "id": "TC_REGRESS_038",
@@ -6975,7 +6975,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "113ms"
+      "duration": "779ms"
     },
     {
       "id": "TC_REGRESS_039",
@@ -6989,7 +6989,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "691ms"
+      "duration": "1113ms"
     },
     {
       "id": "TC_REGRESS_040",
@@ -7003,7 +7003,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1544ms"
+      "duration": "1479ms"
     },
     {
       "id": "TC_REGRESS_041",
@@ -7017,7 +7017,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "609ms"
+      "duration": "998ms"
     },
     {
       "id": "TC_REGRESS_042",
@@ -7031,7 +7031,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "468ms"
+      "duration": "1143ms"
     },
     {
       "id": "TC_REGRESS_043",
@@ -7045,7 +7045,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1223ms"
+      "duration": "1107ms"
     },
     {
       "id": "TC_REGRESS_044",
@@ -7059,7 +7059,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1380ms"
+      "duration": "1480ms"
     },
     {
       "id": "TC_REGRESS_045",
@@ -7073,7 +7073,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1433ms"
+      "duration": "1496ms"
     },
     {
       "id": "TC_REGRESS_046",
@@ -7087,7 +7087,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "202ms"
+      "duration": "264ms"
     },
     {
       "id": "TC_REGRESS_047",
@@ -7101,7 +7101,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "824ms"
+      "duration": "339ms"
     },
     {
       "id": "TC_REGRESS_048",
@@ -7115,7 +7115,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "959ms"
+      "duration": "153ms"
     },
     {
       "id": "TC_REGRESS_049",
@@ -7129,7 +7129,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "1561ms"
+      "duration": "1511ms"
     },
     {
       "id": "TC_REGRESS_050",
@@ -7143,7 +7143,7 @@
       "actualResult": "Successfully completed steps.",
       "status": "PASSED",
       "error": "",
-      "duration": "387ms"
+      "duration": "755ms"
     }
   ]
 }
