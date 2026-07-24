@@ -1,0 +1,15 @@
+{
+  "name": "selenium-tests",
+  "version": "1.0.0",
+  "description": "Selenium E2E testing suite for pulp capping React Web application",
+  "main": "test-suite.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test-suite.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.16.0",
+    "chromedriver": "^120.0.1",
+    "xlsx": "^0.18.5"
+  }
+}

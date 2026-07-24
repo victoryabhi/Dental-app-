@@ -53,6 +53,11 @@ const mockDb = {
 };
 
 async function initDb() {
+  if (process.env.DB_TYPE === 'mock' || !process.env.DB_HOST) {
+    console.log('Skipping MySQL connection, starting with in-memory mock fallback.');
+    dbConnection = null;
+    return;
+  }
   try {
     dbConnection = await mysql.createConnection({
       host: process.env.DB_HOST || 'localhost',

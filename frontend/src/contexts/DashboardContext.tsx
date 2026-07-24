@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext, ReactNode, useEffect } from 'react';
+import React, { createContext, useState, useContext, ReactNode, useEffect, useRef } from 'react';
 import { 
   ref, 
   onValue, 
@@ -116,7 +116,14 @@ export const DashboardProvider = ({ children }: { children: ReactNode }) => {
     if (storedPatients) setPatients(JSON.parse(storedPatients));
     if (storedAnalyses) setAnalyses(JSON.parse(storedAnalyses));
     if (storedNotifications) setNotifications(JSON.parse(storedNotifications));
+
+    // Request desktop notification permission
+    if ('Notification' in window && Notification.permission === 'default') {
+      Notification.requestPermission();
+    }
   }, []);
+
+  const isFirstLoadAnalyses = useRef(true);
 
   // Sync Patients, Analyses, and Notifications in real time from Realtime Database
   useEffect(() => {
@@ -154,6 +161,27 @@ export const DashboardProvider = ({ children }: { children: ReactNode }) => {
           aList.push({ id: childSnapshot.key, ...childSnapshot.val() } as Analysis);
         });
         aList.reverse();
+        
+        // Trigger browser notification for newly added analysis
+        if (!isFirstLoadAnalyses.current && aList.length > 0) {
+          const previousAnalyses = JSON.parse(localStorage.getItem('analyses_list') || '[]');
+          const newItems = aList.filter(a => !previousAnalyses.some((pa: any) => pa.id === a.id));
+          
+          newItems.forEach(newItem => {
+            if ('Notification' in window && Notification.permission === 'granted') {
+              try {
+                new window.Notification("AI Analysis Complete 🔔", {
+                  body: `Analysis for ${newItem.patientName} is ready. Result: ${newItem.result}`,
+                  tag: `analysis-${newItem.id}`
+                });
+              } catch (e) {
+                console.error("Browser notification failed", e);
+              }
+            }
+          });
+        }
+        isFirstLoadAnalyses.current = false;
+
         setAnalyses(aList);
         localStorage.setItem('analyses_list', JSON.stringify(aList));
       } else {

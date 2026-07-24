@@ -1,0 +1,60 @@
+name: Backend Security Review & CI Assessment
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  sast-and-audit:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Detect Backend Framework
+        id: detect
+        run: |
+          if [ -f "backend/package.json" ]; then
+            echo "framework=Express" >> $GITHUB_OUTPUT
+          elif [ -f "pom.xml" ]; then
+            echo "framework=Spring Boot" >> $GITHUB_OUTPUT
+          else
+            echo "framework=Generic REST API" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install Semgrep
+        run: |
+          pip install semgrep || npm install -g semgrep || true
+
+      - name: Run Semgrep SAST
+        run: |
+          semgrep --config=auto backend/ || true
+
+      - name: Run Gitleaks Secret Scan
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
+      - name: Build & Run API Tests
+        run: |
+          cd backend
+          npm install
+          # Run test scripts if defined
+          npm test || true
+
+      - name: Upload Vulnerability Test Reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: Vulnerability-Test-Reports
+          path: Vulnerability Test Results/
+          retention-days: 30

@@ -12,7 +12,8 @@ const firebaseConfig = {
   storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || `${projectId}.firebasestorage.app`,
   messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "28420093444",
   appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:28420093444:web:ced9e174a44bc39ffda751",
-  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL || `https://${projectId}-default-rtdb.firebaseio.com`
+  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL || `https://${projectId}-default-rtdb.firebaseio.com`,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || "G-XNKY26S2RC"
 };
 
 const app = initializeApp(firebaseConfig);

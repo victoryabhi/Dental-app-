@@ -1,0 +1,14 @@
+{
+  "name": "appium-tests",
+  "version": "1.0.0",
+  "description": "Appium E2E testing suite for pulp capping Android application",
+  "main": "test-suite.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test-suite.js"
+  },
+  "dependencies": {
+    "webdriverio": "^8.24.0",
+    "xlsx": "^0.18.5"
+  }
+}
