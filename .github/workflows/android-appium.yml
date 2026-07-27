@@ -63,10 +63,12 @@ jobs:
           script: |
             npm install -g appium --no-fund || true
             appium driver install uiautomator2 || true
-            appium &
+            appium --port 4723 > /dev/null 2>&1 &
+            APPIUM_PID=$!
             sleep 15
             chmod +x gradlew
             ./gradlew :automation:test --tests "com.saveetha.aipulpcapping.automation.utils.GeneratePassReport.generateAppiumReport" --no-daemon || true
+            kill $APPIUM_PID || true
       - name: Upload Results
         if: always()
         uses: actions/upload-artifact@v4
