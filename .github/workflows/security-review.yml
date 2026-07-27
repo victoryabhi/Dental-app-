@@ -36,6 +36,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Create Config
+        run: |
+          mkdir -p app
+          echo '{"project_info":{"project_number":"0","project_id":"dummy","storage_bucket":"dummy.appspot.com"},"client":[{"client_info":{"mobilesdk_app_id":"1:0:android:0","android_client_info":{"package_name":"com.saveetha.aipulpcapping"}},"oauth_client":[],"api_key":[{"current_key":"dummy"}],"services":{}}],"configuration_version":"1"}' > app/google-services.json
       - name: Gradle
         run: |
           chmod +x gradlew
@@ -53,6 +57,10 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
+      - name: Create Config
+        run: |
+          mkdir -p app
+          echo '{"project_info":{"project_number":"0","project_id":"dummy","storage_bucket":"dummy.appspot.com"},"client":[{"client_info":{"mobilesdk_app_id":"1:0:android:0","android_client_info":{"package_name":"com.saveetha.aipulpcapping"}},"oauth_client":[],"api_key":[{"current_key":"dummy"}],"services":{}}],"configuration_version":"1"}' > app/google-services.json
       - name: Excel Report
         run: |
           ./gradlew :automation:test --tests "com.saveetha.aipulpcapping.automation.utils.GeneratePassReport.generateVulnerabilityReport" --no-daemon || true
