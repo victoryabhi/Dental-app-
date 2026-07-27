@@ -23,8 +23,8 @@ This repository contains the complete Android application, Backend integration, 
 - **Reporting**: Automated Excel and HTML report generation.
 
 ## 🔗 Key Links
-- **GitHub Repository**: [https://github.com/victoryabhi/ai-based-pulp-capping-app](https://github.com/victoryabhi/ai-based-pulp-capping-app)
-- **Live Automation Dashboard**: [GitHub Pages Report](https://victoryabhi.github.io/ai-based-pulp-capping-app/reports/latest/)
+- **GitHub Repository**: [https://github.com/victoryabhi/dental-app](https://github.com/victoryabhi/dental-app)
+- **Live Automation Dashboard**: [GitHub Pages Report](https://victoryabhi.github.io/dental-app/reports/latest/)
 - **Final Test Report**: [Automation_Test_Report_Final.xlsx](./automation/reports/Automation_Test_Report_Final.xlsx)
 - **Executive Security Summary**: [executive-summary.md](./Vulnerability%20Test%20Results/executive-summary.md)
 
