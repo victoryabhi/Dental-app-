@@ -1,4 +1,4 @@
-name: "🚀 Deploy to GitHub Pages + 670+ Selenium & Validation Tests"
+name: "🚀 Deploy to GitHub Pages + 470+ Selenium E2E Tests"
 
 on:
   push:

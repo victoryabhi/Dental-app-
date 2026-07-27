@@ -1,4 +1,4 @@
-name: "⚡ AI Pulp Capping - Load Testing — 420 Test Cases (100 VUs × 1 Min)"
+name: "⚡ WorkLink Load Testing — 420 Test Cases (100 VUs × 1 Min)"
 
 on:
   push:

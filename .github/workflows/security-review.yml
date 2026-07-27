@@ -1,4 +1,4 @@
-name: "🔐 Security Review – 450+ Test Cases (SAST + Dependency + Secret Scan)"
+name: "🔐 Security Review – 420 Test Cases (SAST + Dependency + Secret Scan)"
 
 on:
   push:
