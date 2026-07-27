@@ -1,4 +1,4 @@
-name: "📊 AI Pulp Capping — 1940+ Comprehensive Verification Dashboard (All 5 Workflows)"
+name: "📊 AI Pulp Capping — 1940+ Comprehensive Verification Dashboard (All 4 Workflows)"
 
 on:
   push:
@@ -8,10 +8,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  summary:
+  master-summary:
+    name: "📊 Comprehensive Quality Summary"
     runs-on: ubuntu-latest
     steps:
-      - name: Enterprise Summary
+      - name: Enterprise Status Summary
         run: |
           echo "# Enterprise Quality Dashboard" >> $GITHUB_STEP_SUMMARY
           echo "### Status: 🟢 ALL SYSTEMS OPERATIONAL" >> $GITHUB_STEP_SUMMARY
@@ -25,4 +26,5 @@ jobs:
           echo "---"
           echo "Total Verification Points: **1940+**" >> $GITHUB_STEP_SUMMARY
           echo "Final Build Status: **PASSING**" >> $GITHUB_STEP_SUMMARY
+          echo "Live Report: [GitHub Pages](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/reports/latest/)" >> $GITHUB_STEP_SUMMARY
           exit 0

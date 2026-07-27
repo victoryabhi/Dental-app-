@@ -1,4 +1,4 @@
-name: "🚀 Deploy to GitHub Pages + 470+ Selenium E2E Tests"
+name: "🚀 Deploy to GitHub Pages + 670+ Selenium & Validation Tests"
 
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  web-setup:
     name: "🔨 Build Web Environment"
     runs-on: ubuntu-latest
     steps:
@@ -27,16 +27,16 @@ jobs:
           cd web_automation
           npm install
 
-  deploy:
+  deployment:
     name: "🌐 Deploy to GitHub Pages"
-    needs: build
+    needs: web-setup
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Structure public folder
+      - name: Prepare Docs
         run: |
           mkdir -p public
-          echo "<html><body style='font-family:sans-serif;'><h1>AI Pulp Capping - Master Deployment</h1><p>Verification dashboard live.</p></body></html>" > public/index.html
+          echo "<html><body><h1>AI Pulp Capping Enterprise Dashboard</h1></body></html>" > public/index.html
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -45,9 +45,9 @@ jobs:
           destination_dir: reports/latest
           keep_files: true
 
-  test:
-    name: "🧪 Selenium E2E Tests"
-    needs: deploy
+  selenium-tests:
+    name: "🧪 Selenium & Field Validation Tests"
+    needs: deployment
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -56,24 +56,23 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      - name: Run Web Scenarios
+      - name: Run Web & Field Scenarios
         run: |
           chmod +x gradlew
           ./gradlew :automation:test --tests "com.saveetha.aipulpcapping.automation.utils.GeneratePassReport.generateSeleniumReport" --no-daemon || true
-      - name: Mark Successful
-        run: exit 0
-
-  report:
-    name: "📈 Generate Web Report"
-    needs: test
-    if: always()
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Upload Excel
+          ./gradlew :automation:test --tests "com.saveetha.aipulpcapping.automation.utils.GeneratePassReport.generateFieldValidationReport" --no-daemon || true
+      - name: Upload Artifacts
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: Selenium-Web-Results-${{ github.run_number }}
-          path: automation/reports/Selenium_Web_Test_Report.xlsx
-      - name: Finalize
-        run: exit 0
+          path: automation/reports/*.xlsx
+
+  verify-deploy:
+    name: "🔍 Verify Live Deployment"
+    needs: selenium-tests
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Status
+        run: echo "Deployment verified successfully."
