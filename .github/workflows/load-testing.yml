@@ -25,7 +25,7 @@ jobs:
       - name: Compile Tests
         run: |
           chmod +x gradlew
-          ./gradlew :app:compileDebugUnitTest --no-daemon
+          ./gradlew :app:compileDebugUnitTestSources --no-daemon
 
   stress-execution:
     name: "⚡ Load & Stress Testing"
