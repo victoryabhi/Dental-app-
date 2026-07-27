@@ -7,11 +7,15 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.analytics.FirebaseAnalytics
+import com.google.firebase.analytics.logEvent
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 
 class AuthViewModel : ViewModel() {
+
+    private var analytics: FirebaseAnalytics? = null
 
     private val auth: FirebaseAuth? by lazy {
         try {
@@ -82,6 +86,11 @@ class AuthViewModel : ViewModel() {
         get() = auth?.currentUser?.uid
 
     fun initAuth(context: Context) {
+        try {
+            analytics = FirebaseAnalytics.getInstance(context.applicationContext)
+        } catch (e: Exception) {
+            android.util.Log.e("ANALYTICS", "Firebase Analytics initialization failed: ${e.message}")
+        }
         val prefs = context.getSharedPreferences("auth_prefs", Context.MODE_PRIVATE)
         val firebaseUser = auth?.currentUser
         _isLoggedIn.value = firebaseUser != null || prefs.getBoolean("is_logged_in", false)
@@ -250,6 +259,13 @@ class AuthViewModel : ViewModel() {
                 auth?.signInWithEmailAndPassword(_email.value, _password.value)?.await()
                 fetchProfileFromFirestore(context)
                 saveAuth(context)
+                try {
+                    analytics?.logEvent(FirebaseAnalytics.Event.LOGIN) {
+                        param(FirebaseAnalytics.Param.METHOD, "email")
+                    }
+                } catch (ae: Exception) {
+                    android.util.Log.e("ANALYTICS", "Failed to log login event: ${ae.message}")
+                }
                 onSuccess()
             } catch (e: Exception) {
                 android.util.Log.e("AUTH", "Login failed: ${e.message}")
@@ -275,6 +291,13 @@ class AuthViewModel : ViewModel() {
                         db?.collection("doctors")?.document(uid)?.set(profile)?.await()
                     }
                     saveAuth(context)
+                    try {
+                        analytics?.logEvent(FirebaseAnalytics.Event.SIGN_UP) {
+                            param(FirebaseAnalytics.Param.METHOD, "email")
+                        }
+                    } catch (ae: Exception) {
+                        android.util.Log.e("ANALYTICS", "Failed to log sign_up event: ${ae.message}")
+                    }
                 } catch (e: Exception) {
                     android.util.Log.e("AUTH", "Registration failed: ${e.message}")
                 }
@@ -306,6 +329,11 @@ class AuthViewModel : ViewModel() {
         _isLoggedIn.value = false
         _fullName.value = ""
         _email.value = ""
+        try {
+            analytics?.logEvent("logout", null)
+        } catch (ae: Exception) {
+            android.util.Log.e("ANALYTICS", "Failed to log logout event: ${ae.message}")
+        }
     }
 
     fun simulateValidation(onComplete: () -> Unit) {

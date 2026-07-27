@@ -65,14 +65,8 @@ class PulpCappingRepository(
     }
 
     private suspend fun uploadImage(userId: String, folder: String, fileName: String, uri: Uri): String? {
-        return try {
-            val ref = storage.child("doctors").child(userId).child(folder).child("$fileName.jpg")
-            ref.putFile(uri).await()
-            ref.downloadUrl.await().toString()
-        } catch (e: Exception) {
-            android.util.Log.e("STORAGE", "Upload failed: ${e.message}")
-            null
-        }
+        android.util.Log.d("STORAGE", "Bypassing cloud upload, saving local URI: $uri")
+        return uri.toString()
     }
     
     suspend fun updatePatient(patient: Patient, userId: String? = null) {
