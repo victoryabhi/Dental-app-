@@ -1,0 +1,22 @@
+AI PULP CAPPING - WEB AUTOMATION SETUP (NODE.JS + SELENIUM)
+
+FOLDER: C:/Ai Based Pulp Cap/web_automation
+
+PREREQUISITES:
+1. Install Node.js (v18 or higher recommended).
+2. Google Chrome Browser installed.
+
+STEPS TO RUN:
+1. Open terminal and navigate to the folder:
+   cd web_automation
+
+2. Install dependencies:
+   npm install
+
+3. Run the tests:
+   npm test
+
+REPORTING:
+- Once the tests finish, check 'reports/Web_Automation_Report.xlsx'.
+- Screenshots of any failures are saved in 'screenshots/'.
+- A summary will be printed in the terminal.
