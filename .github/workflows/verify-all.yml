@@ -316,4 +316,36 @@ jobs:
               f.write("\n".join(lines))
 
           print("Comprehensive dashboard summary generated.")
+
+          # Save JSON for dashboard page
+          summary_data = {
+              "build": BUILD,
+              "commit": COMMIT,
+              "branch": BRANCH,
+              "actor": ACTOR,
+              "grand_total": grand_total,
+              "grand_passed": grand_passed,
+              "grand_failed": grand_failed,
+              "workflows": {
+                  "load": {"total": load_total, "passed": load_passed, "failed": load_failed, "pass_rate": load_pass_rate, "tests": load_tests},
+                  "selenium": {"total": web_total, "passed": web_passed, "failed": web_failed, "pass_rate": web_pass_rate, "tests": web_tests},
+                  "appium": {"total": mob_total, "passed": mob_passed, "failed": mob_failed, "pass_rate": mob_pass_rate, "tests": mob_tests},
+                  "security": {"total": sec_total, "passed": sec_passed, "failed": sec_failed, "pass_rate": sec_pass_rate, "tests": sec_tests},
+                  "field": {"total": field_total, "passed": field_passed, "failed": field_failed, "pass_rate": field_pass_rate, "tests": field_tests},
+              }
+          }
+          os.makedirs("dashboard-results", exist_ok=True)
+          with open("dashboard-results/summary.json", "w", encoding="utf-8") as f:
+              json.dump(summary_data, f, indent=2)
+          print("Dashboard JSON saved")
           PYEOF
+
+      - name: 📤 Upload Dashboard Artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: AI-Pulp-Capping-Verification-Dashboard-${{ github.run_number }}
+          path: |
+            dashboard-results/
+          retention-days: 30
+        continue-on-error: true
