@@ -33,15 +33,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Prepare Docs
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install Frontend Dependencies
         run: |
-          mkdir -p public
-          echo "<html><body><h1>AI Pulp Capping Enterprise Dashboard</h1></body></html>" > public/index.html
+          cd frontend
+          npm install
+      - name: Build Web Application
+        run: |
+          cd frontend
+          npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./frontend/dist
           destination_dir: reports/latest
           keep_files: true
 
