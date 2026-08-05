@@ -1,0 +1,18 @@
+{
+  "name": "ai-pulp-capping-web-automation",
+  "version": "1.0.0",
+  "description": "Selenium E2E Web Automation with Node.js and Excel Reporting",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js --timeout 60000"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.21.0",
+    "chromedriver": "^125.0.0",
+    "xlsx": "^0.18.5",
+    "mocha": "^10.4.0",
+    "chai": "^4.4.1",
+    "mochawesome": "^7.1.3",
+    "dotenv": "^16.4.5"
+  }
+}

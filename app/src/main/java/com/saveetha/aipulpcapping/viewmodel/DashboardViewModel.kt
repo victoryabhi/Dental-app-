@@ -8,12 +8,32 @@ import androidx.lifecycle.viewModelScope
 import com.saveetha.aipulpcapping.model.Analysis
 import com.saveetha.aipulpcapping.model.Patient
 import com.saveetha.aipulpcapping.repository.PulpCappingRepository
+import com.google.firebase.analytics.FirebaseAnalytics
+import com.google.firebase.analytics.logEvent
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
 data class Notification(val id: Int, val title: String, val description: String, val time: String, val patientId: String? = null)
 
-class DashboardViewModel(private val repository: PulpCappingRepository?) : ViewModel() {
+class DashboardViewModel(
+    private val repository: PulpCappingRepository?,
+    private val authViewModel: AuthViewModel? = null,
+    private val context: android.content.Context? = null
+) : ViewModel() {
+
+    private var analytics: FirebaseAnalytics? = null
+
+    init {
+        context?.let {
+            try {
+                analytics = FirebaseAnalytics.getInstance(it.applicationContext)
+            } catch (e: Exception) {
+                android.util.Log.e("ANALYTICS", "Firebase Analytics initialization failed in DashboardViewModel: ${e.message}")
+            }
+        }
+    }
+
+    private val userId: String? get() = authViewModel?.userId
 
     private val _notifications = mutableStateListOf(
         Notification(1, "AI Analysis Complete", "Analysis for Patient #45210 is ready.", "2m ago", "45210"),
@@ -127,7 +147,8 @@ class DashboardViewModel(private val repository: PulpCappingRepository?) : ViewM
         rdtValue: String,
         confidence: String,
         material: String,
-        recommendations: String
+        recommendations: String,
+        context: android.content.Context? = null
     ) {
         viewModelScope.launch {
             val xRayUri = _selectedImageUri.value
@@ -144,14 +165,35 @@ class DashboardViewModel(private val repository: PulpCappingRepository?) : ViewM
                 recommendations = recommendations,
                 material = material
             )
-            repository?.insertAnalysis(newAnalysis)
+            repository?.insertAnalysis(newAnalysis, userId)
+            
+            try {
+                val activeAnalytics = analytics ?: context?.let { FirebaseAnalytics.getInstance(it.applicationContext) }
+                activeAnalytics?.logEvent("pulp_cap_analysis") {
+                    param("patient_id", patientId)
+                    param("result", result)
+                    param("rdt_value", rdtValue)
+                    param("recommended_material", material)
+                }
+            } catch (ae: Exception) {
+                android.util.Log.e("ANALYTICS", "Failed to log pulp_cap_analysis event: ${ae.message}")
+            }
+            
+            // Show Local Notification
+            context?.let {
+                com.saveetha.aipulpcapping.utils.NotificationHelper.showAnalysisNotification(
+                    it, 
+                    "AI Analysis Complete", 
+                    "New results for $patientName: $result"
+                )
+            }
             
             // Update patient's latest radiograph and status
             repository?.getPatientById(patientId)?.let { patient ->
                 repository.updatePatient(patient.copy(
                     latestRadiographUri = xRayUri,
                     status = result
-                ))
+                ), userId)
             }
             
             // Reset session state
@@ -162,20 +204,42 @@ class DashboardViewModel(private val repository: PulpCappingRepository?) : ViewM
 
     fun addPatient(patient: Patient) {
         viewModelScope.launch {
-            repository?.insertPatient(patient)
+            repository?.insertPatient(patient, userId)
+            try {
+                analytics?.logEvent("add_patient") {
+                    param("patient_id", patient.id)
+                    param("risk_level", patient.status)
+                }
+            } catch (ae: Exception) {
+                android.util.Log.e("ANALYTICS", "Failed to log add_patient event: ${ae.message}")
+            }
         }
     }
 
     fun updatePatient(updatedPatient: Patient) {
         viewModelScope.launch {
-            repository?.updatePatient(updatedPatient)
+            repository?.updatePatient(updatedPatient, userId)
+            try {
+                analytics?.logEvent("update_patient") {
+                    param("patient_id", updatedPatient.id)
+                }
+            } catch (ae: Exception) {
+                android.util.Log.e("ANALYTICS", "Failed to log update_patient event: ${ae.message}")
+            }
         }
     }
 
     fun deletePatient(patientId: String) {
         viewModelScope.launch {
             repository?.getPatientById(patientId)?.let {
-                repository.deletePatient(it)
+                repository.deletePatient(it, userId)
+                try {
+                    analytics?.logEvent("delete_patient") {
+                        param("patient_id", patientId)
+                    }
+                } catch (ae: Exception) {
+                    android.util.Log.e("ANALYTICS", "Failed to log delete_patient event: ${ae.message}")
+                }
             }
         }
     }

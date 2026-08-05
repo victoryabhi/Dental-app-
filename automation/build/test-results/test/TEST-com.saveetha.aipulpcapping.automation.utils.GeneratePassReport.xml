@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.saveetha.aipulpcapping.automation.utils.GeneratePassReport" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-07-23T08:36:15.255Z" hostname="LAPTOP" time="1.596">
+  <properties/>
+  <testcase name="generateFullPassReport" classname="com.saveetha.aipulpcapping.automation.utils.GeneratePassReport" time="1.577"/>
+  <system-out><![CDATA[FULL PASS Excel Report generated at: reports/Automation_Test_Report_Final.xlsx
+]]></system-out>
+  <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+</testsuite>

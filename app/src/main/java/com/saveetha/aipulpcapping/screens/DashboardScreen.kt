@@ -10,19 +10,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.LibraryBooks
 import androidx.compose.material.icons.automirrored.filled.Logout
-import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.BarChart
-import androidx.compose.material.icons.filled.Dashboard
-import androidx.compose.material.icons.filled.FlashOn
-import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.LibraryBooks
-import androidx.compose.material.icons.filled.Image
-import androidx.compose.material.icons.filled.Menu
-import androidx.compose.material.icons.filled.Notifications
-import androidx.compose.material.icons.filled.Person
-import androidx.compose.material.icons.filled.Psychology
-import androidx.compose.material.icons.filled.People
-import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -33,8 +21,14 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.viewinterop.AndroidView
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
+import com.github.mikephil.charting.charts.PieChart
+import com.github.mikephil.charting.data.PieData
+import com.github.mikephil.charting.data.PieDataSet
+import com.github.mikephil.charting.data.PieEntry
+import com.github.mikephil.charting.utils.ColorTemplate
 import com.saveetha.aipulpcapping.components.AppBottomBar
 import com.saveetha.aipulpcapping.navigation.Screen
 import com.saveetha.aipulpcapping.viewmodel.AuthViewModel
@@ -112,6 +106,12 @@ fun DashboardScreen(navController: NavController, viewModel: DashboardViewModel,
                 item {
                     GreetingSection(navController, displayName)
                     Spacer(modifier = Modifier.height(24.dp))
+                    
+                    Text("Risk Distribution", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                    Spacer(modifier = Modifier.height(12.dp))
+                    AnalyticsChart(viewModel)
+                    
+                    Spacer(modifier = Modifier.height(24.dp))
                     StatsSection(viewModel)
                     Spacer(modifier = Modifier.height(24.dp))
                     Row(
@@ -139,6 +139,96 @@ fun DashboardScreen(navController: NavController, viewModel: DashboardViewModel,
                     Spacer(modifier = Modifier.height(12.dp))
                 }
             }
+        }
+    }
+}
+
+@Composable
+fun AnalyticsChart(viewModel: DashboardViewModel) {
+    val analyses by viewModel.recentAnalyses.collectAsState()
+    
+    val highCount = analyses.count { it.result == "High Risk" }.toFloat()
+    val modCount = analyses.count { it.result == "Moderate" || it.result == "Moderate Risk" }.toFloat()
+    val lowCount = analyses.count { it.result == "Low Risk" }.toFloat()
+
+    Card(
+        modifier = Modifier.fillMaxWidth().height(250.dp),
+        shape = RoundedCornerShape(16.dp),
+        colors = CardDefaults.cardColors(containerColor = Color.White),
+        elevation = CardDefaults.cardElevation(2.dp)
+    ) {
+        Row(
+            modifier = Modifier.fillMaxSize().padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Box(
+                modifier = Modifier
+                    .weight(0.55f)
+                    .fillMaxHeight()
+            ) {
+                AndroidView(
+                    factory = { context ->
+                        PieChart(context).apply {
+                            description.isEnabled = false
+                            setUsePercentValues(true)
+                            setHoleColor(android.graphics.Color.TRANSPARENT)
+                            legend.isEnabled = false
+                        }
+                    },
+                    modifier = Modifier.fillMaxSize(),
+                    update = { chart ->
+                        val entries = mutableListOf<PieEntry>()
+                        if (highCount > 0) entries.add(PieEntry(highCount, "High"))
+                        if (modCount > 0) entries.add(PieEntry(modCount, "Mod"))
+                        if (lowCount > 0) entries.add(PieEntry(lowCount, "Low"))
+                        
+                        if (entries.isEmpty()) entries.add(PieEntry(1f, "No Data"))
+
+                        val dataSet = PieDataSet(entries, "").apply {
+                            colors = listOf(
+                                android.graphics.Color.RED,
+                                android.graphics.Color.YELLOW,
+                                android.graphics.Color.GREEN
+                            )
+                            valueTextSize = 11f
+                            valueTextColor = android.graphics.Color.BLACK
+                        }
+
+                        chart.data = PieData(dataSet)
+                        chart.invalidate()
+                    }
+                )
+            }
+
+            Column(
+                modifier = Modifier
+                    .weight(0.45f)
+                    .padding(start = 12.dp),
+                verticalArrangement = Arrangement.spacedBy(16.dp)
+            ) {
+                LegendItem(color = Color.Red, label = "High Risk", range = "< 0.5 mm")
+                LegendItem(color = Color(0xFFE2B714), label = "Moderate", range = "0.5 - 1.5 mm")
+                LegendItem(color = Color.Green, label = "Low Risk", range = "> 1.5 mm")
+            }
+        }
+    }
+}
+
+@Composable
+fun LegendItem(color: Color, label: String, range: String) {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier.fillMaxWidth()
+    ) {
+        Box(
+            modifier = Modifier
+                .size(12.dp)
+                .background(color, shape = RoundedCornerShape(2.dp))
+        )
+        Spacer(modifier = Modifier.width(8.dp))
+        Column {
+            Text(label, fontSize = 13.sp, fontWeight = FontWeight.Bold, color = Color.DarkGray)
+            Text(range, fontSize = 11.sp, color = Color.Gray)
         }
     }
 }

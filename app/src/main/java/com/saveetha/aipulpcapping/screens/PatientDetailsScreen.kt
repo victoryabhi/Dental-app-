@@ -32,6 +32,7 @@ import com.saveetha.aipulpcapping.viewmodel.DashboardViewModel
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PatientDetailsScreen(navController: NavController, viewModel: DashboardViewModel, patientId: String) {
+    val context = androidx.compose.ui.platform.LocalContext.current
     var patient by remember { mutableStateOf<com.saveetha.aipulpcapping.model.Patient?>(null) }
     val analyses by viewModel.getAnalysesForPatient(patientId).collectAsState(initial = emptyList())
     
@@ -176,6 +177,20 @@ fun PatientDetailsScreen(navController: NavController, viewModel: DashboardViewM
                     
                     Spacer(modifier = Modifier.height(32.dp))
                     
+                    AppButton(
+                        text = "Generate PDF Report",
+                        onClick = {
+                            val file = com.saveetha.aipulpcapping.utils.PdfGenerator.generatePatientReport(context, currentPatient, analyses.first())
+                            if (file != null) {
+                                // Logic to open or share the file
+                                android.util.Log.d("PDF", "Generated at: ${file.absolutePath}")
+                            }
+                        },
+                        containerColor = Color(0xFF4CAF50)
+                    )
+                    
+                    Spacer(modifier = Modifier.height(12.dp))
+
                     AppButton(
                         text = "Start AI Analysis",
                         onClick = { 
