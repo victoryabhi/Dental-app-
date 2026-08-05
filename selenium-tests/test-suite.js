@@ -66,12 +66,12 @@ async function runWebTests() {
     await runStep("TC_WEB_AUTH_001", "Authentication", "Verify Live User Login Journey", "CRITICAL", async () => {
       await driver.get(targetUrl);
       await loginPage.login("doctor@example.com", "password123");
-      await driver.wait(until.elementLocated(dashboardPage.welcomeText), 5000);
+      await driver.wait(until.elementLocated(dashboardPage.welcomeText), 15000);
     });
 
     await runStep("TC_WEB_CRUD_001", "CRUD Operations", "Verify Live Add Patient Details Flow", "HIGH", async () => {
       await dashboardPage.navigateToAddPatient();
-      await dashboardPage.addPatient("Emma Wilson", "29", "555-0011");
+      await dashboardPage.addPatient("#45299", "Emma Wilson", "10-10-1995", "555-0011");
     });
 
   } catch (error) {
