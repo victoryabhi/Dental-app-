@@ -1,0 +1,36 @@
+name: Build APK
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Create Config
+        run: |
+          mkdir -p app
+          echo '{"project_info":{"project_number":"0","project_id":"dummy","storage_bucket":"dummy.appspot.com"},"client":[{"client_info":{"mobilesdk_app_id":"1:0:android:0","android_client_info":{"package_name":"com.saveetha.aipulpcapping"}},"oauth_client":[],"api_key":[{"current_key":"dummy"}],"services":{}}],"configuration_version":"1"}' > app/google-services.json
+
+      - name: Gradle Build
+        run: |
+          chmod +x gradlew
+          ./gradlew :app:assembleDebug --no-daemon
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: pulp-capping-apk
+          path: app/build/outputs/apk/debug/app-debug.apk
